@@ -1,0 +1,47 @@
+.social {
+    position: absolute;
+    right: 0;
+    bottom: 25rem;
+    font-size: 3.5rem;
+    color: var(--thirdColor);
+    background-color:  orange;
+    padding: 0.4rem;
+    padding-left: 0.5rem;
+    height: 73px;
+    width: 70px;
+    transition: 0.2s ease-in-out;
+    
+}
+
+
+
+.social2 {
+    position: absolute;
+    bottom: 8rem;
+    right: 0;
+    font-size: 3rem;
+    color: var(--thirdColor);
+    background-color:  orange;
+    padding: 1rem;
+    height: 83px;
+    width: 320px;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.social2:hover {
+    transform: translate(-15.9rem);
+}
+
+.phone {
+    position: absolute;
+    font-size: 2rem;
+   margin-top: 0.5rem;
+   left: 4.5rem;
+}
+
+@media (max-width: 768px) {
+    .social {
+        display: none;
+    }
+}

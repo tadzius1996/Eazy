@@ -1,0 +1,436 @@
+.contactContainer-login {
+    width: 690px;
+    height: 440px;
+    text-align: center;
+    background-color: var(--primaryColor);
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 3rem;
+    margin-top: 0rem;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4rem;
+    text-align: center;
+    z-index: 10000;
+}
+
+.login-place {
+    margin-top: -4rem;
+    background-color: var(--primaryColor);
+    padding-top: 3rem;
+}
+
+.contact-container {
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    
+}
+
+.contactForm-register {
+    width: 100%;
+    height: 60%;
+    position: relative;
+    
+    color: rgb(240, 230, 230);
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.form-control-login {
+    width: 150%;
+    height: 25%;
+    padding-top: 15px;
+    border: none;
+    position: relative;
+    margin-top: 2.4rem;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+}
+
+.form-message-register {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 45%;
+    max-height: 45%;
+    padding-top: 35px;
+    border: none;
+    position: relative;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    color: white;
+    margin-top: 2rem;
+}
+
+.label-name-register {
+    margin-top: 0.5rem;
+    position: absolute;
+    left: 0rem;
+    color: var(--primaryColor);
+    pointer-events: none;
+}
+
+.form-message-register:focus + .label-name-register .content-name-register,
+.form-message-register:valid + .label-name-register .content-name-register
+ {
+    transform: translateY(-1.5rem);
+    font-size: 14px;
+}
+
+.form-message-register:focus + .label-name-register .content-message-register,
+.form-message-register:valid + .label-name-register .content-message-register
+ {
+    transform: translateY(-1.5rem);
+    font-size: 14px;
+}
+
+.form-control-login:focus + .label-name-register .content-name-register,
+.form-control-login:valid + .label-name-register .content-name-register
+ {
+    transform: translateY(-1.5rem);
+    font-size: 14px;
+}
+
+
+.content-name-register {
+    position: absolute;
+    bottom: 1rem;
+    left: 0;
+    transition: all 0.3s ease;
+    color: var(--thirdColor);
+}
+
+.content-message-register {
+    position: absolute;
+    bottom: -3rem;
+    left: 0;
+    transition: all 0.3s ease;
+    color: var(--thirdColor);
+}
+
+.contact-title {
+    color: var(--thirdColor);
+    margin-top: 0rem;
+
+}
+
+.contact-text {
+    width: 350px;
+    margin: auto;
+    color: var(--thirdColor);
+}
+
+.loginn-btn {
+    font-size: 1rem;
+    background-color: transparent;
+    border: 1px solid var(--thirdColor);;
+    color: var(--thirdColor);
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    margin-top: 0.5rem;
+}
+
+.loginn-btn:hover {
+    background-color: rgb(240, 230, 230);
+    color: orange;
+
+}
+
+.awesome {
+   font-size: 4rem;
+   margin-top: 1rem;
+   color: var(--primaryColor);
+}
+
+.contacts {
+  color: #f0e6e6;
+  font-size: 2.4rem;
+  width: 100%;
+  padding: 0.4rem;
+}
+
+.contact-div {
+    background-color: #0d131c;
+    width: 25%;
+    margin: auto;
+}
+
+.contact-form {
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: rgb(240, 230, 230);
+    outline: none;
+}
+
+.contact-form:hover {
+    background-color: rgb(240, 230, 230);
+    color: rgb(182, 36, 36);
+
+}
+
+.register {
+    font-size: 4rem;
+}
+
+.have-account-login {
+    margin-top: 1rem;
+}
+
+.already-login {
+
+  cursor: pointer;
+}
+
+.login-particles {
+    position: absolute;
+    bottom: 0rem;
+    right: 0rem;
+    width: 800px;
+    height: auto;
+    z-index: 0;
+    
+}
+
+.login-particles2 {
+    position: absolute;
+    top: 8rem;
+    left: 5rem;
+    width:800px;
+    height: auto;
+    z-index: 0;
+    
+}
+
+.login-particles3 {
+    position: absolute;
+    top: 6rem;
+    left: 25rem;
+    width:900px;
+    height: auto;
+    z-index: 0;
+    display: none;
+}
+
+.login {
+    font-size: 5rem;
+    color: var(--thirdColor);
+}
+
+@media (max-width: 1200px) {
+
+    .contactContainer-login {
+        width: 690px;
+        height: 450px;
+        text-align: center;
+        background-color: var(--primaryColor);
+        border-radius: 15px;
+        margin: auto;
+        margin-bottom: 3rem;
+        margin-top: 0rem;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 4rem;
+        text-align: center;
+        z-index: 10000;
+    }
+
+    .login-particles {
+        position: absolute;
+        bottom: 0rem;
+        right: 2rem;
+        width: 800px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .login-particles2 {
+        position: absolute;
+        top: 8rem;
+        left: 1rem;
+        width:800px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .login-particles3 {
+        position: absolute;
+        top: 6rem;
+        left: 25rem;
+        width:900px;
+        height: auto;
+        z-index: 0;
+        display: none;
+    }
+
+    
+    
+}
+
+@media (max-width: 768px) {
+
+    .padding {
+        margin-top: 0;
+    }
+
+    .contactContainer-login {
+        width: 500px;
+        height: 465px;
+        text-align: center;
+        background-color: var(--primaryColor);
+        border-radius: 15px;
+        margin: auto;
+        margin-bottom: 3rem;
+        margin-top: 0rem;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 4rem;
+        text-align: center;
+        z-index: 10000;
+    }
+
+    .login-particles {
+        position: absolute;
+        bottom: 1rem;
+        right: 2rem;
+        width: 800px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .login-particles2 {
+        position: absolute;
+        top: 8rem;
+        left: 0rem;
+        width:800px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .login-particles3 {
+        position: absolute;
+        top: 6rem;
+        left: 25rem;
+        width:900px;
+        height: auto;
+        z-index: 0;
+        display: none;
+    }
+
+    
+    
+}
+
+@media (max-width: 560px) {
+
+    .contactContainer-login {
+        width: 400px;
+        height: 465px;
+        text-align: center;
+        background-color: var(--primaryColor);
+        border-radius: 15px;
+        margin: auto;
+        margin-bottom: 3rem;
+        margin-top: 0rem;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 4rem;
+        text-align: center;
+        z-index: 10000;
+    }
+
+    .login-particles {
+        position: absolute;
+        bottom: 1rem;
+        right: 2rem;
+        width: 800px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .login-particles2 {
+        position: absolute;
+        top: 8rem;
+        left: 1rem;
+        width:800px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .login-particles3 {
+        position: absolute;
+        top: 6rem;
+        left: 25rem;
+        width:900px;
+        height: auto;
+        z-index: 0;
+        display: none;
+    }
+
+
+    
+    
+}
+
+@media (max-width: 450px) {
+
+    .contactContainer-login {
+        width: 350px;
+        height: 465px;
+        text-align: center;
+        background-color: var(--primaryColor);
+        border-radius: 15px;
+        margin: auto;
+        margin-bottom: 3rem;
+        margin-top: 0rem;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 4rem;
+        text-align: center;
+        z-index: 10000;
+    }
+
+    .login-particles {
+        position: absolute;
+        bottom: 1rem;
+        right: 2rem;
+        width: 800px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .login-particles2 {
+        position: absolute;
+        top: 8rem;
+        left: 1rem;
+        width:800px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .login-particles3 {
+        position: absolute;
+        top: 6rem;
+        left: 25rem;
+        width:900px;
+        height: auto;
+        z-index: 0;
+        display: none;
+    }
+
+    
+    
+}
+

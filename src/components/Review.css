@@ -1,0 +1,995 @@
+.review-container {
+  background-color: rgb(102, 174, 207);
+  position: absolute;
+  height: 150vh;
+  width: 100%;
+  bottom: -250vh;
+  z-index: 10;
+}
+
+.ccustom-shape-divider-top-1616377103 {
+  position: absolute;
+  top: -5rem;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotateX(180deg);
+  z-index: 100000000000000000000000000000000000000000000000000000;
+}
+
+.ccustom-shape-divider-top-1616377103 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 80px;
+  transform: rotate(360deg);
+}
+
+.ccustom-shape-divider-top-1616377103 .shape-fill {
+  fill: rgb(102, 174, 207);
+  transform: rotate(360deg);
+}
+
+.review-title {
+  color: var(--primaryColor);
+  font-size: 4.5rem;
+  text-align: center;
+  margin-top: 8.1rem;
+  z-index: 1000000000000000000000000000000000000000000000;
+  transition: 0.2s ease-in-out;
+}
+
+.review-section {
+  max-width: 1200px;
+  width: auto;
+  margin: auto;
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: auto;
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  width: 270px;
+  height: 270px;
+  background-color: var(--primaryColor);
+  opacity: 0.9;
+  border-radius: 5px;
+  margin-top: 11rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  position: relative;
+  box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+  z-index: 10;
+  z-index: 10000000000000;
+  transition: 0.2s ease-in-out;
+}
+
+.cardLast {
+  opacity: 0.9;
+  width: 270px;
+  height: 270px;
+  background-color: var(--primaryColor);
+  border-radius: 5px;
+  margin-top: 11rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  position: relative;
+  box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+  z-index: 10;
+  z-index: 10000000000000000000;
+  transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1)
+}
+
+.divider {
+  background-color: #e6dada;
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  border-radius: 50%;
+  left: -4rem;
+  top: -4rem;
+  box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+}
+
+.card-container {
+  padding: 1rem;
+  margin-top: 1rem;
+}
+
+.card-title {
+  color: white;
+  margin-left: 6rem;
+  padding-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.card-text {
+  color: white;
+  text-align: center;
+}
+
+.cccustom-shape-divider-bottom-1616407588 {
+  position: absolute;
+  bottom: -18rem;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.cccustom-shape-divider-bottom-1616407588 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 550px;
+  transform: rotateY(180deg);
+}
+
+.cccustom-shape-divider-bottom-1616407588 .shape-fill {
+  fill: #FFA500;
+}
+
+.clouds {
+  position: absolute;
+  bottom: 0rem;
+  z-index: 10000000000;
+  right: 0rem;
+}
+
+.courses {
+  bottom: -42rem;
+  left: 0;
+  position: absolute;
+  font-size: 2rem;
+  color: var(--thirdColor);
+  letter-spacing: 5px;
+  z-index: 10000000000000000000000000000000000000000000;
+  height: 45%;
+  width: 100%;
+  background-color: var(--primaryColor);
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  
+}
+
+.course {
+  margin-top: 1rem;
+  transition: 0.2s ease-in-out;
+  z-index: 10000000000000000000000000000000000000000000;
+ 
+}
+
+.course {
+  text-align: start;
+  margin-left: 14rem;
+  cursor: pointer;
+}
+
+.course-link {
+  text-decoration: none;
+  color: var(--thirdColor);
+}
+
+.course-text {
+  font-size: 1.3rem;
+  width: 450px;
+  margin: auto;
+  margin-top: 5rem;
+  margin-left: 14rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.look {
+  position: absolute;
+  bottom: -38rem;
+  right: 15%;
+  width: 450px;
+  height: auto;
+  z-index: 1000000000000000;
+}
+
+.look2 {
+  position: absolute;
+  bottom: -30rem;
+  right: 33%;
+  width: 120px;
+  height: auto;
+  z-index: 1000000000000000;
+}
+
+.look3 {
+  position: absolute;
+  bottom: -35rem;
+  right: 25%;
+  width: 420px;
+  height: auto;
+  z-index: 10000000000;
+}
+
+.look4 {
+  position: absolute;
+  bottom: -31rem;
+  left: 5%;
+  width: 450px;
+  height: auto;
+  z-index: 10000000000;
+}
+
+.look5 {
+  position: absolute;
+  bottom: -40rem;
+  right: 5%;
+  width: 420px;
+  height: auto;
+  z-index: 10000000000;
+}
+
+.look6 {
+  position: absolute;
+  top: 4.7rem;
+  right: 10%;
+  width: 650px;
+  height: auto;
+  z-index: 10;
+}
+
+@media (max-width: 1200px) {
+
+  .card {
+    width: 320px;
+    height: 320px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    z-index: 10000000000000;
+    transition: 0.2s ease-in-out;
+  }
+
+  .cardLast {
+    width: 320px;
+    height: 320px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    z-index: 10000000000000;
+    transition: 0.2s ease-in-out;
+  }
+
+
+
+  .card-text {
+    color: white;
+    text-align: center;
+    font-size: 1.1rem;
+  }
+
+  .courses {
+    bottom: -32rem;
+    position: absolute;
+    font-size: 2rem;
+    color: var(--thirdColor);
+    letter-spacing: 5px;
+    z-index: 10000000000000000000000000000000000000000000;
+    height: 25%;
+    width: 100%;
+    background-color: var(--primaryColor);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    
+  }
+  
+
+
+
+}
+
+@media (max-width: 1200px) {
+  .review-title {
+    color: var(--primaryColor);
+    margin: auto;
+    width: 600px;
+    font-size: 4.5rem;
+    text-align: center;
+    margin-top: 8.1rem;
+    z-index: 1000000000000000000000000000000000000000000000;
+    transition: 0.2s ease-in-out;
+  }
+
+  .clouds {
+    position: absolute;
+    bottom: 0rem;
+    z-index: 10;
+    right: 0rem;
+  }
+
+  .review-container {
+    background-color: rgb(102, 174, 207);
+    position: absolute;
+    height: 300vh;
+    width: 100%;
+    bottom: -400vh;
+  }
+
+  .review-section {
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+  }
+
+  .courses {
+    bottom: -40rem;
+    position: absolute;
+    font-size: 2rem;
+    color: var(--thirdColor);
+    letter-spacing: 5px;
+    z-index: 10000000000000000000000000000000000000000000;
+    height: 18%;
+    width: 100%;
+    background-color: var(--primaryColor);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  
+    
+  }
+
+  .look {
+    position: absolute;
+    bottom: -36rem;
+    right: 10%;
+    width: 350px;
+    height: auto;
+    z-index: 1000000000000000;
+  }
+  
+  .look2 {
+    position: absolute;
+    bottom: -30rem;
+    right: 26%;
+    width: 120px;
+    height: auto;
+    z-index: 1000000000000000;
+  }
+  
+  .look3 {
+    position: absolute;
+    bottom: -25rem;
+    right: 29%;
+    width: 320px;
+    height: auto;
+    z-index: 1000000000000000000000000000;
+  }
+  
+  .look4 {
+    position: absolute;
+    bottom: -31rem;
+    left: 5%;
+    width: 450px;
+    height: auto;
+    z-index: 10000000000;
+  }
+  
+  .look5 {
+    position: absolute;
+    bottom: -40rem;
+    right: 0%;
+    width: 420px;
+    height: auto;
+    z-index: 10000000000;
+  }
+
+  
+.course {
+  text-align: start;
+  margin-left: 12rem;
+  cursor: pointer;
+}
+
+.course-text {
+  font-size: 1.3rem;
+  width: 450px;
+  margin: auto;
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+  
+  
+}
+
+@media (max-width: 1100px) {
+  .look {
+    position: absolute;
+    bottom: -36rem;
+    right: 10%;
+    width: 350px;
+    height: auto;
+    z-index: 1000000000000000;
+  }
+  
+  .look2 {
+    position: absolute;
+    bottom: -30rem;
+    right: 20%;
+    width: 120px;
+    height: auto;
+    z-index: 1000000000000000;
+  }
+  
+  .look3 {
+    position: absolute;
+    bottom: -35rem;
+    right: 4%;
+    width: 320px;
+    height: auto;
+    z-index: 10000000000;
+  }
+  
+  .look4 {
+    position: absolute;
+    bottom: -31rem;
+    left: 6%;
+    width: 320px;
+    height: auto;
+    z-index: 10000000000;
+  }
+
+  
+  .look6 {
+    position: absolute;
+    top: 4.7rem;
+    right: 10%;
+    width: 650px;
+    height: auto;
+    z-index: 10;
+  }
+
+  .course-text {
+    font-size: 1.2rem;
+    width: 450px;
+    margin: auto;
+    margin-top: 2rem;
+    margin-left: 10rem;
+  }
+
+  .course {
+    text-align: start;
+    margin-left: 10rem;
+    cursor: pointer;
+  }
+}
+
+@media (max-width: 1030px) {
+  .look {
+    position: absolute;
+    bottom: -40rem;
+    right: 0%;
+    width: 700px;
+    height: auto;
+    z-index: 1000000000000000;
+    display: none;
+  }
+  
+  .look2 {
+    position: absolute;
+    bottom: -30rem;
+    right: 15%;
+    width: 120px;
+    height: auto;
+    z-index: 1000000000000000;
+  }
+  
+  .look3 {
+    position: absolute;
+    bottom: -30rem;
+    right: 0%;
+    width: 320px;
+    height: auto;
+    z-index: 10000000000;
+  }
+  
+  .look4 {
+    position: absolute;
+    bottom: -31rem;
+    left: 2%;
+    width: 320px;
+    height: auto;
+    z-index: 10000000000;
+  }
+
+  .look5 {
+    z-index: 1;
+  }
+
+  .course-text {
+    font-size: 1.3rem;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+  
+  }
+
+  .course {
+    text-align: center;
+    cursor: pointer;
+    display: none;
+    z-index: 100000000000000000000;
+  }
+
+  .course-span {
+    font-size: 4rem;
+    z-index: 100000000000000000000;
+  }
+}
+
+@media (max-width: 930px) {
+
+  .look {
+    position: absolute;
+    bottom: -39rem;
+    right: 0%;
+    width: 700px;
+    height: auto;
+    z-index: 1000000000000000;
+    display: none;
+  }
+
+  
+  .course-text {
+    font-size: 1.3rem;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+  
+  }
+
+  .course {
+    text-align: center;
+    cursor: pointer;
+    display: none;
+  }
+
+  .course-span {
+    font-size: 4rem;
+  }
+  
+
+  .review-container {
+    background-color: rgb(102, 174, 207);
+    position: absolute;
+    height: 300vh;
+    width: 100%;
+    bottom: -425vh;
+    z-index: -1;
+  }
+
+  .card {
+    width: 290px;
+    height: 290px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    z-index: 10000000000000;
+    transition: 0.2s ease-in-out;
+  }
+
+  .cardLast {
+    width: 290px;
+    height: 290px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    z-index: 10000000000000;
+    transition: 0.2s ease-in-out;
+  }
+
+}
+
+@media (max-width: 860px) {
+
+  .look6 {
+    position: absolute;
+    top: -2rem;
+    right: 10%;
+    width: 650px;
+    height: auto;
+    z-index: 10;
+  } 
+
+  .review-section {
+    max-width: 700px;
+    width: auto;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+  }
+  
+  .card {
+    width: 470px;
+    height: 280px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    
+    transition: 0.2s ease-in-out;
+  }
+
+  .cardLast {
+    display: none;
+  }
+
+  
+  .course-text {
+    font-size: 1.3rem;
+    width: 450px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+  
+  }
+  
+
+  .review-section {
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+  }
+
+  .look {
+    position: absolute;
+    bottom: -37rem;
+    right: 0%;
+    width: 600px;
+    height: auto;
+    z-index: 1000000000000000;
+  }
+
+  .course-text {
+    font-size: 1.1rem;
+    width: 350px;
+    margin: auto;
+    text-align: center;
+    margin-top: 1rem;
+  
+  }
+
+  .course {
+    text-align: center;
+    cursor: pointer;
+    display: none;
+  }
+
+  .course-span {
+    font-size: 4rem;
+  }
+
+}
+
+@media (max-width: 700px) {
+  .card {
+    width: 400px;
+    height: 280px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    
+    transition: 0.2s ease-in-out;
+  }
+
+}
+
+@media (max-width: 640px) {
+
+  .look6 {
+    position: absolute;
+    top: -6rem;
+    right: 10%;
+    width: 650px;
+    height: auto;
+    z-index: 10;
+  } 
+  .review-title {
+    color: var(--primaryColor);
+    margin: auto;
+    width: 500px;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 8.1rem;
+    z-index: 1000000000000000000000000000000000000000000000;
+    transition: 0.2s ease-in-out;
+  }
+
+  .review-section {
+    max-width: 700px;
+    width: auto;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+  }
+  
+  .card {
+    width: 400px;
+    height: 280px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    
+    transition: 0.2s ease-in-out;
+  }
+
+  .cardLast {
+    display: none;
+  }
+
+  .card-text {
+    font-size: 1.3rem;
+    color: white;
+    text-align: start;
+  }
+
+  
+
+  .review-section {
+    max-width: 1200px;
+    width: auto;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+    position: relative;
+  }
+
+ 
+
+}
+
+@media (max-width: 620px) {
+  .review-title {
+    color: var(--primaryColor);
+    margin: auto;
+    width: 500px;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8.1rem;
+    z-index: 1000000000000000000000000000000000000000000000;
+    transition: 0.2s ease-in-out;
+  }
+}
+
+@media (max-width: 610px) {
+  .card {
+    width: 360px;
+    height: 280px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    
+    transition: 0.2s ease-in-out;
+  }
+
+  .look3 {
+    position: absolute;
+    bottom: -30rem;
+    right: -4%;
+    width: 320px;
+    height: auto;
+    z-index: 10000000000;
+  }
+}
+
+@media (max-width: 570px) {
+  .card {
+    width: 330px;
+    height: 240px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    transition: 0.2s ease-in-out;
+  }
+
+  .card-text {
+    font-size: 1.1rem;
+    color: white;
+    text-align: start;
+  }
+
+  .card-container {
+    padding: 1rem;
+    margin-top: 0rem;
+  }
+  
+  .card-title {
+    color: white;
+    margin-left: 6rem;
+    padding-bottom: 2rem;
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 520px) {
+
+  .review-title {
+    color: var(--primaryColor);
+    margin: auto;
+    width: 380px;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8.1rem;
+    z-index: 1000000000000000000000000000000000000000000000;
+    transition: 0.2s ease-in-out;
+  }
+
+  .card {
+    width: 280px;
+    height: 220px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    transition: 0.2s ease-in-out;
+  }
+
+  .card-text {
+    font-size: 1rem;
+    color: white;
+    text-align: start;
+  }
+
+  .divider {
+    background-color: #e6dada;
+    height: 130px;
+    width: 130px;
+    position: absolute;
+    border-radius: 50%;
+    left: -4rem;
+    top: -4rem;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+  }
+  
+}
+
+@media (max-width: 490px) {
+
+  .review-title {
+    color: var(--primaryColor);
+    margin: auto;
+    width: 380px;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 8.1rem;
+    z-index: 1000000000000000000000000000000000000000000000;
+    transition: 0.2s ease-in-out;
+  }
+
+  .card {
+    width: 250px;
+    height: 210px;
+    background-color: var(--primaryColor);
+    border-radius: 5px;
+    margin-top: 11rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: relative;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+    z-index: 10;
+    transition: 0.2s ease-in-out;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+    color: white;
+    text-align: start;
+  }
+
+  .divider {
+    background-color: #e6dada;
+    height: 110px;
+    width: 110px;
+    position: absolute;
+    border-radius: 50%;
+    left: -4rem;
+    top: -4rem;
+    box-shadow: 0.5px 0.5px 10px 1px rgb(85, 81, 81);
+  }
+
+  .card-container {
+    padding: 1rem;
+    margin-top: 0rem;
+  }
+  
+  .card-title {
+    color: white;
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+}
+
+
+
+
+
+

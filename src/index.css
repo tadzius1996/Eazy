@@ -1,13 +1,44 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Ranchers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Farsan&display=swap');
+
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bigContainer {
+  
+}
+
+html {
+  overflow-x: hidden;
+  z-index: 0;
+  background-color: rgb(102, 174, 207);
+  
+}
+
+:root {
+  --primaryColor: orange;
+  --secondaryColor: #dfd2d2;
+  --thirdColor: white;
+}
+
+li {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.padding {
+  padding-top: 10.5rem;
+}
+
+@media (max-width: 768px) {
+
+  .bigContainer {
+    padding-top: 8rem
+  }
 }

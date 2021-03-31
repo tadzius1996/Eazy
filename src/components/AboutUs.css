@@ -1,0 +1,892 @@
+.aboutUs {
+    height: 100vh;
+    background-color: var(--secondaryColor);
+    margin-top: 3rem;
+}
+
+.about-front {
+    position: absolute;
+    width: 50%;
+    height: 460px;
+    top: 6rem;
+    z-index: 0;
+    left: 0;
+}
+
+.about-front2 {
+    position: absolute;
+    width: 50%;
+    height: 460px;
+    top: 6rem;
+    z-index: 0;
+    right: 0;
+}
+
+.about-header {
+    position: relative;
+    
+    margin-top: -6rem;
+    background-color: var(--primaryColor);
+    z-index: 1;
+    height: 87%;
+    padding-top: 8rem;
+    letter-spacing: 2px;
+}
+
+.about-header-div {
+    margin: auto;
+    margin-left: 11rem;
+    margin-top: -4rem;
+}
+
+.about-header-title {
+    color: var(--thirdColor);
+    margin-left: -2rem;
+    font-size: 8rem;
+}
+
+.about-header-text {
+    color: var(--thirdColor);
+    font-size: 1.5rem;
+    width: 400px;
+    text-align: center;
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.about-photo {
+   width: 500px;
+   height: auto;
+   margin: auto;
+   z-index: 0;
+}
+
+.about-place {
+    margin: auto;
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-holder {
+    display: flex;
+    z-index: 0;
+    background-color: var(--primaryColor);
+    width: 100%;
+    height: 30rem;
+}
+
+.about-holder2 {
+    display: flex;
+    
+    background-color: var(--thirdColor);
+    width: 100%;
+    height: 30rem;
+}
+
+.about-letters {
+    margin-top: 5rem;
+    margin-right: 6rem ;
+    width: 550px;
+}
+
+.about-letters-right {
+    margin-top: 5rem;
+    margin-left: 6rem;
+    width: 550px;
+}
+
+.about-title {
+    font-size: 3rem;
+    color: var(--primaryColor);
+}
+
+.about-desc {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: var(--primaryColor); 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.about-title2 {
+    font-size: 3rem;
+    color: var(--thirdColor);
+}
+
+.about-desc2 {
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    color: var(--thirdColor);
+}
+
+.team-group {
+    position: absolute;
+    top: 5rem;
+    right: 10rem;
+    width: 550px;
+    height: auto;
+}
+
+.circles {
+    width: 1100px;
+    height: auto;
+    position: absolute;
+    z-index: -1;
+    right: 0;
+    top: 3rem;
+}
+
+@media (max-width: 1200px) {
+
+    .about-header-title {
+        color: var(--thirdColor);
+        margin-left: -3rem;
+        font-size: 7rem;
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        font-size: 1.4rem;
+        width: 400px;
+        text-align: center;
+        margin-left: 0rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 5rem;
+        right: 8rem;
+        width: 500px;
+        height: auto;
+    }
+
+    .about-letters-right {
+        margin-top: 5rem;
+        margin-left: 1rem;
+        width: 550px;
+    }
+
+    .about-letters {
+        margin-top: 5rem;
+        margin-right: 1rem ;
+        width: 550px;
+    }
+
+    .about-title {
+        font-size: 3rem;
+        color: var(--primaryColor);
+    }
+    
+    .about-desc {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color: var(--primaryColor); 
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .about-title2 {
+        font-size: 3rem;
+        color: var(--thirdColor);
+    }
+    
+    .about-desc2 {
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        color: var(--thirdColor);
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    .about-header-title {
+        color: var(--thirdColor);
+        margin-left: -6rem;
+        font-size: 7rem;
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        font-size: 1.4rem;
+        width: 400px;
+        text-align: center;
+        margin-left: -3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 5rem;
+        right: 5rem;
+        width: 500px;
+        height: auto;
+    }
+
+    .about-letters-right {
+        margin-top: 5rem;
+        margin-left: 1rem;
+        width: 450px;
+        margin: auto;
+    }
+
+    .about-letters {
+        margin-top: 5rem;
+        margin-right: 1rem ;
+        width: 450px;
+        margin: auto;
+    }
+
+    .about-photo {
+        width: 500px;
+        height: auto;
+        margin: auto;
+     }
+
+
+}
+
+@media (max-width: 1050px) {
+
+    .about-header-title {
+        color: var(--thirdColor);
+        margin-left: -8rem;
+        font-size: 7rem;
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        font-size: 1.4rem;
+        width: 400px;
+        text-align: center;
+        margin-left: -5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 5rem;
+        right: 3rem;
+        width: 500px;
+        height: auto;
+    }
+
+    .about-title {
+        font-size: 2rem;
+        color: var(--primaryColor);
+        margin-left: 1rem;
+        max-width: 400px;
+    }
+    
+    .about-desc {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: var(--primaryColor); 
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 400px;
+        margin-left: 1rem;
+    }
+    
+    .about-title2 {
+        font-size: 2rem;
+        color: var(--thirdColor);
+        margin-right: 1rem;
+        max-width: 400px;
+    }
+    
+    .about-desc2 {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        color: var(--thirdColor);
+        width: 400px;
+        margin-right: 1rem;
+    }
+
+    .about-photo {
+        width: auto;
+        height: 300px;
+        margin: auto;
+        margin-left: 2.2rem;
+        margin-right: 2.2rem;
+     }
+
+     .about-letters-right {
+        margin-top: 5rem;
+        margin-left: 1rem;
+        width: 450px;
+        margin: auto;
+        margin-left: 2rem;
+    }
+
+    .about-letters {
+        margin-top: 5rem;
+        margin-right: 1rem ;
+        width: 450px;
+        margin: auto;
+        margin-right: 1rem ;
+    }
+
+}
+
+@media (max-width: 930px) {
+
+    .about-header-title {
+        color: var(--thirdColor);
+        margin-left: -8rem;
+        font-size: 6rem;
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        font-size: 1.4rem;
+        width: 400px;
+        text-align: center;
+        margin-left: -8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 5rem;
+        right: 3rem;
+        width: 450px;
+        height: auto;
+    }
+
+    .about-holder {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--primaryColor);
+        width: 100%;
+        height: 30rem;
+        position: relative;
+    }
+    
+    .about-holder2 {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--thirdColor);
+        width: 100%;
+        height: 30rem;
+        position: relative;
+    }
+
+    .about-photo {
+        width: 600px;
+        height: auto;
+        margin: auto;
+        margin-top: 2.5rem;
+        position: relative;
+        margin-right: 2.5rem;
+     }
+
+     .about-letters-right {
+        
+        left: 0;
+        width: 450px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+        position: absolute;
+        top: 4rem;
+        right: 3rem;
+        z-index: 10000;
+    }
+
+    .about-letters {
+        position: absolute;
+        top: 4rem;
+        left: 3rem;
+        margin-top: 5rem;
+        margin-right: 1rem ;
+        width: 450px;
+        margin: auto;
+        margin-right: 1rem ;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+    }
+
+}
+
+@media (max-width: 830px) {
+
+    .about-header-title {
+        color: var(--thirdColor);
+        margin-left: -8rem;
+        font-size: 5rem;
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        font-size: 1.4rem;
+        width: 400px;
+        text-align: center;
+        margin-left: -9.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 5rem;
+        right: 3rem;
+        width: 400px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .padding {
+        margin-top: 0rem;
+    }
+
+    .about-header-title {
+        color: var(--thirdColor);
+        
+        font-size: 5rem;
+        
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 1.4rem;
+        width: 400px;
+        margin-top: 1rem;
+        margin-left: -6.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 16rem;
+        right: 9rem;
+        width: 400px;
+        height: auto;
+    }
+
+    .aboutUs {
+        text-align: center;
+        margin-top: 2rem;
+        height: 110vh;
+        background-color: var(--secondaryColor);
+    }
+
+    .about-photo {
+        width: auto;
+        height: 400px;
+        margin: auto;
+        margin-top: 2.5rem;
+        position: relative;
+        margin-right: 2.5rem;
+        margin-left: 4.5rem;
+     }
+
+     .list-item-burger {
+         color: var(--primaryColor);
+     }
+
+     .list-item-burgerFirst {
+        color: var(--primaryColor);
+    }
+
+    .burger-social {
+        color: var(--primaryColor);
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .about-header-title {
+        color: var(--thirdColor);
+        
+        font-size: 5rem;
+        
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 1.4rem;
+        width: 400px;
+        margin-top: 1rem;
+        margin-left: -6.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 16rem;
+        right: 9rem;
+        width: 400px;
+        height: auto;
+    }
+
+    .aboutUs {
+        text-align: center;
+        margin-top: 2rem;
+        height: 110vh;
+        background-color: var(--secondaryColor);
+    }
+
+    .about-photo {
+        width: auto;
+        height: 350px;
+        margin: auto;
+        margin-top: 4rem;
+        position: relative;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+     }
+
+     .about-letters-right {
+        
+        
+        width: 450px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+        position: absolute;
+        top: 5rem;
+        right: 3rem;
+        z-index: 10000;
+    }
+
+    .about-letters {
+        position: absolute;
+        top: 5rem;
+        left: 2rem;
+        margin-top: 5rem;
+        margin-right: 1rem ;
+        width: 450px;
+        height: 300px;
+        margin: auto;
+        margin-right: 1rem ;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+    }
+
+    .about-header-title {
+        color: var(--thirdColor);
+        margin-left: -10rem;
+        font-size: 6rem;
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        font-size: 1.4rem;
+        width: 400px;
+        text-align: center;
+        margin-left: -8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .about-title {
+        font-size: 2rem;
+        color: var(--primaryColor);
+        margin-left: 1rem;
+        max-width: 400px;
+    }
+    
+    .about-desc {
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: var(--primaryColor); 
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 400px;
+        margin-left: 1rem;
+    }
+    
+    .about-title2 {
+        font-size: 2rem;
+        color: var(--thirdColor);
+        margin-right: 1rem;
+        max-width: 400px;
+    }
+    
+    .about-desc2 {
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: var(--thirdColor);
+        width: 400px;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .about-header-title {
+        color: var(--thirdColor);
+        
+        font-size: 5rem;
+        
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 1.4rem;
+        width: 400px;
+        margin-top: 1rem;
+        margin-left: -6.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 16rem;
+        right: 9rem;
+        width: 400px;
+        height: auto;
+    }
+
+    .aboutUs {
+        text-align: center;
+        margin-top: 2rem;
+        height: 110vh;
+        background-color: var(--secondaryColor);
+    }
+
+    .about-photo {
+        width: auto;
+        height: 350px;
+        margin: auto;
+        margin-top: 4rem;
+        position: relative;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+     }
+
+     .about-letters-right {
+        width: 400px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+        position: absolute;
+        top: 5rem;
+        right: 3rem;
+        z-index: 10000;
+    }
+
+    .about-letters {
+        position: absolute;
+        top: 5rem;
+        left: 2rem;
+        margin-top: 5rem;
+        margin-right: 1rem ;
+        width: 400px;
+        height: 300px;
+        margin: auto;
+        margin-right: 1rem ;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+    }
+
+    .about-header-title {
+        color: var(--thirdColor);
+        margin-left: -10.5rem;
+        font-size: 6rem;
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        font-size: 1.4rem;
+        width: 400px;
+        text-align: center;
+        margin-left: -8rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .about-title {
+        font-size: 2rem;
+        color: var(--primaryColor);
+        margin-left: 1rem;
+        max-width: 400px;
+    }
+    
+    .about-desc {
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: var(--primaryColor); 
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 400px;
+        margin-left: 1rem;
+    }
+    
+    .about-title2 {
+        font-size: 2rem;
+        color: var(--thirdColor);
+        margin-right: 1rem;
+        max-width: 400px;
+    }
+    
+    .about-desc2 {
+        margin-top: 1rem;
+        font-size: 1rem;
+        color: var(--thirdColor);
+        width: 350px;
+        margin-right: 1rem;
+    }
+
+
+}
+
+@media (max-width: 500px) {
+
+    .about-header-title {
+        color: var(--thirdColor);
+        
+        font-size: 5rem;
+        
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        background-color: rgba(0, 0, 0, 0.3);
+        font-size: 1.2rem;
+        width: 350px;
+        margin-top: 1rem;
+        margin-left: -6.5rem;
+        font-family: Arial, Helvetica, sans-serif;
+       text-align: center;
+       
+        
+    }
+    
+    
+    .team-group {
+        position: absolute;
+        top: 16rem;
+        right: 4rem;
+        width: 400px;
+        height: auto;
+    }
+
+    .aboutUs {
+        text-align: center;
+        margin-top: 2rem;
+        height: 110vh;
+        background-color: var(--secondaryColor);
+    }
+
+    .about-photo {
+        width: auto;
+        height: 320px;
+        margin: auto;
+        margin-top: 5rem;
+        position: relative;
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+     }
+
+     .about-letters-right {
+        width: 350px;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+        position: absolute;
+        top: 6rem;
+        right: 3rem;
+        z-index: 10000;
+    }
+
+    .about-letters {
+        position: absolute;
+        top: 6rem;
+        left: 2rem;
+        margin-top: 5rem;
+        margin-right: 1rem ;
+        width: 350px;
+        margin: auto;
+        margin-right: 1rem ;
+        background-color: rgba(0, 0, 0, 0.6);
+        padding: 1rem;
+    }
+
+    .about-header-title {
+        color: var(--thirdColor);
+        font-size: 5rem;
+    }
+    
+    .about-header-text {
+        color: var(--thirdColor);
+        font-size: 1.1rem;
+        width: 350px;
+        text-align: center;
+        margin-left: -9rem;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .about-title {
+        font-size: 2rem;
+        color: var(--primaryColor);
+        margin-left: 1rem;
+        max-width: 400px;
+    }
+    
+    .about-desc {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        color: var(--primaryColor); 
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 300px;
+        margin-left: 1rem;
+    }
+    
+    .about-title2 {
+        font-size: 2rem;
+        color: var(--thirdColor);
+        margin-right: 1rem;
+        max-width: 400px;
+    }
+    
+    .about-desc2 {
+        margin-top: 1rem;
+        font-size: 0.9rem;
+        color: var(--thirdColor);
+        width: 300px;
+        margin-right: 1rem;
+    }
+
+    .about-header-div {
+        margin: auto;
+        margin-left: 10rem;
+        margin-top: -4rem;
+    }
+
+    .list-item-burgerFirst {
+        color: var(--primaryColor);
+        font-size: 1.6rem;
+    }
+
+    .list-item-burger {
+        color: var(--primaryColor);
+        font-size: 1.6rem;
+    }
+
+
+}

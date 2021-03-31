@@ -1,0 +1,115 @@
+.footer6 {
+    background-color: rgb(102, 174, 207);
+    font-size: 4rem;
+    position: absolute;
+    bottom: -275vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.xccccustom-shape-divider-bottom-1616461942 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+.xccccustom-shape-divider-bottom-1616461942 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 117px;
+}
+
+.xccccustom-shape-divider-bottom-1616461942 .shape-fill {
+    fill: var(--primaryColor);
+}
+
+.footerContent6{
+    margin-top: 3rem;
+    text-align: center;
+    z-index: 10000000000000000000;
+    left: 39%;
+    
+    bottom: 0;
+    font-size: 1.3rem;
+    color: var(--primaryColor);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.footerText3 {
+    margin-left: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+}
+
+.footerDesign3 {
+    margin-left: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.footerNumber3 {
+    margin-left: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 0.7rem;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+    position: relative;
+}
+
+.footerNumber3:hover::before {
+    content: '-0203 6558 811';
+    position: absolute;
+    font-size: 1.3rem;
+    width: 200px;
+    top: -1.6rem;
+    left: -2.6rem;
+}
+
+.footerDesign3:hover::before {
+    content: 'TadasMiloncius';
+    text-align: center;
+    letter-spacing: 4px;
+    position: absolute;
+    font-size: 1.3rem;
+    width: 100px;
+    top: -1.6rem;
+    left: -3rem;
+}
+
+.footerNumber3:hover {
+    transform: scale(1.1);
+}
+
+.footerDesign3:hover {
+    transform: scale(1.1);
+}
+
+.footerText3:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 1200px) {
+
+    
+}
