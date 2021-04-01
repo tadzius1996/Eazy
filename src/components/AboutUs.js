@@ -23,7 +23,7 @@ function AboutUs() {
             </div>
             <div className='about-place'>
                 <div className='about-holder2'>
-                  <img className='about-photo' src='/About1.jpg' alt='kids' data-aos='fade-up'/>
+                  <img className='about-photo' src='/about1.jpg' alt='kids' data-aos='fade-up'/>
                   <div className='about-letters' data-aos='fade-up'>
                   <h3 className='about-title'>We Love Playing and Learning</h3>
                   <p className='about-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?</p>
@@ -35,11 +35,11 @@ function AboutUs() {
                   <h3 className='about-title2'>We Love Playing and Learning</h3>
                   <p className='about-desc2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?</p>
                   </div>
-                  <img className='about-photo' src='/About2.jpg' alt='kids' data-aos='fade-up'/>
+                  <img className='about-photo' src='/about2.jpg' alt='kids' data-aos='fade-up'/>
                 </div>
 
                 <div className='about-holder2'>
-                  <img className='about-photo' src='/About3.jpg' alt='kids' data-aos='fade-up'/>
+                  <img className='about-photo' src='/about3.jpg' alt='kids' data-aos='fade-up'/>
                   <div className='about-letters' data-aos='fade-up'>
                   <h3 className='about-title'>We Love Playing and Learning</h3>
                   <p className='about-desc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?</p>
@@ -51,7 +51,7 @@ function AboutUs() {
                   <h3 className='about-title2'>We Love Playing and Learning</h3>
                   <p className='about-desc2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?</p>
                   </div>
-                  <img className='about-photo' src='/About4.jpg' alt='kids' data-aos='fade-up'/>
+                  <img className='about-photo' src='/about4.jpg' alt='kids' data-aos='fade-up'/>
                 </div>
             </div>
             <Footer2 />
