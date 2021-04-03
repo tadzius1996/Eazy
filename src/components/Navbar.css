@@ -83,7 +83,7 @@
     width: 100%;
     z-index: 1000000000000000;
     transition: 0.2s ease-in-out;
-    
+    box-shadow: 1px 1px 10px 2px rgb(78, 75, 75);
   }
 
 .logo {

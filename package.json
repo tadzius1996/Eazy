@@ -9,6 +9,7 @@
     "aos": "^2.3.4",
     "emailjs": "^3.4.0",
     "emailjs-com": "^2.6.4",
+    "firebase": "^8.3.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",

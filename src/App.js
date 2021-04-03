@@ -9,11 +9,19 @@ import Register from './components/Register';
 import Login from './components/Login';
 import Services from './components/Services';
 import Hire from './components/Hire';
+import Dashboard from './components/Dashboard';
+import {AppProvider} from './context';
+import PrivateRoute from "./components/PrivateRoute";
+import MyProfile from './components/MyProfile';
+import StudentReport from './components/StudentReport';
+import Calender from './components/Calender';
+import Gallery from './components/Gallery';
 
 function App() {
   return (
     <div>
       <Router>
+      <AppProvider>
         <Navbar />
         <Switch>
           <div className='bigContainer'>
@@ -25,9 +33,14 @@ function App() {
           <Route path='/Login' component={Login} />
           <Route path='/Services' component={Services} />
           <Route path='/Hire' component={Hire} />
+          <PrivateRoute path='/Dashboard' component={Dashboard} />
+          <PrivateRoute path='/MyProfile' component={MyProfile} />
+          <PrivateRoute path='/StudentReport' component={StudentReport} />
+          <PrivateRoute path='/Calender' component={Calender} />
+          <PrivateRoute path='/Gallery' component={Gallery} />
           </div>
         </Switch>
-        
+        </AppProvider>
       </Router>
     </div>
   );

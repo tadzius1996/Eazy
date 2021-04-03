@@ -36,6 +36,14 @@ li {
   padding-top: 10.5rem;
 }
 
+.error {
+  font-size: 1rem;
+  margin: auto;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0.5rem;
+}
+
 @media (max-width: 768px) {
 
   .bigContainer {

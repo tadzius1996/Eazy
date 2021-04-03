@@ -8,8 +8,10 @@ import {AiOutlineMail} from 'react-icons/ai'
 import {Link} from 'react-router-dom'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
+import useGlobalProvider from '../context'
 
 function Navbar() {
+    const {currentUser} = useGlobalProvider();
 
     useEffect(() => {
         Aos.init({duration: 3000});
@@ -42,7 +44,7 @@ function Navbar() {
                 <Link to='/'><h2 className='logo' data-aos='fade-down'>EZ</h2><span className='subLogo' data-aos='fade-down'>English Center</span></Link>
                 <ul className='list-items' data-aos='fade-left'>
                 <Link to='/Contact' className='list-item'><li>Contact</li></Link>
-                <Link to='/Register' className='list-item'><li>Account</li></Link>
+                {currentUser? <Link to='/Dashboard' className='list-item'><li>Account</li></Link> : <Link to='/Register' className='list-item'><li>Account</li></Link>}
                 <Link to='/Login' className='list-item'><li>Login</li></Link>
                 </ul>
             </div> 
