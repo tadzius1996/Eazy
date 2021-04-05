@@ -17,17 +17,7 @@ function Navbar() {
         Aos.init({duration: 3000});
       }, []);
 
-      let prevScrollpos = window.pageYOffset;
-      window.onscroll = function() {
-
-      let currentScrollpos = window.pageYOffset;
-      if(prevScrollpos > currentScrollpos) {
-          document.getElementById('navbar').style.top = '0';
-      } else {
-          document.getElementById('navbar').style.top = '-125px';
-      }
-      prevScrollpos = currentScrollpos;
-      }
+     
 
 
     const [open, setOpen] = useState(false);

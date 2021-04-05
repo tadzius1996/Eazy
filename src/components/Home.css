@@ -343,7 +343,7 @@
 .title-span {
   font-size: 4.5rem;
   letter-spacing: 3px;
-  color: var(--primaryColor);
+  color: var(--thirdColor);
  
   margin-top: 2rem;
 }
@@ -405,7 +405,7 @@
 .title-span {
   font-size: 4rem;
   letter-spacing: 3px;
-  color: var(--primaryColor);
+  color: var(--thirdColor);
  
   margin-top: 2rem;
 }
@@ -486,7 +486,7 @@
 .title-span {
   font-size: 3.5rem;
   letter-spacing: 3px;
-  color: var(--primaryColor);
+  color: var(--thirdColor);
   margin-top: 2rem;
 }
 
@@ -560,7 +560,7 @@
 .title-span {
   font-size: 3rem;
   letter-spacing: 3px;
-  color: var(--primaryColor);
+  color: var(--thirdColor);
   margin-top: 2rem;
 }
 
