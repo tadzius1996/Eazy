@@ -1,4 +1,6 @@
 
+
+
 .ballons-home {
   position: absolute;
   z-index: -10;
@@ -51,7 +53,6 @@
   }
   
   .slide{
-    background-color: ;
     width: 20%;
     transition: 0.6s;
   }
@@ -584,8 +585,17 @@
   z-index: 10000000000;
   margin: auto;
   margin-top: 13.5rem;
-  margin-right: 3rem;
+  margin-right: 0rem;
+  background-size: cover;
+  position: fixed;
+  background-repeat: no-repeat;
+ background-position: center;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
 }
+
+
 
 }
 
