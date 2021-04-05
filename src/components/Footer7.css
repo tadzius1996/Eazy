@@ -237,9 +237,10 @@
     .footer7 {
         background-color: orange;
         font-size: 4rem;
-        margin-top: -10rem;
+        margin-top: -35px;
         width: 100%;
         z-index: -1;
+        display: none;
     }
 
 

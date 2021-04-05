@@ -382,6 +382,7 @@
     position: absolute;
     margin-top: 2.5rem;
     display: none;
+    z-index: 100000000000000000000000000000000000000;
 }
 
 .nav-burger {
