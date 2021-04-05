@@ -805,6 +805,7 @@
         margin-top: 2rem;
         height: 110vh;
         background-color: var(--secondaryColor);
+        z-index: -1;
     }
 
     .about-photo {

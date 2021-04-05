@@ -482,7 +482,7 @@
     position: absolute;
     top: 100vh;
     background-color: var(--primaryColor);
-    z-index: 0;
+    z-index: -1;
 }
 
 .about-us-title {
