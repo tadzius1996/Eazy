@@ -1107,6 +1107,52 @@
 
 @media (max-width: 768px) {
 
+    .text-header2 {
+        margin: auto;
+        font-size: 3.5rem;
+        color: var(--thirdColor);
+        z-index: 100000;
+        border-bottom: 2px dotted white;
+    }
+    
+    .text-text2 {
+        font-size: 1.7rem;
+        width: 500px;
+        margin: auto;
+        margin-top: 1rem;
+        color: var(--thirdColor);
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    .hire-particles {
+        position: absolute;
+        top: 3.5rem;
+        right: 1rem;
+        width: 650px;
+        height: auto;
+        z-index: 0;
+    }
+    
+    .hire-particles2 {
+        position: absolute;
+        bottom: -82rem;
+        left: 10rem;
+        width: 550px;
+        height: auto;
+        z-index: 0;
+    }
+    
+    .hire-particles3 {
+        position: absolute;
+        top: 75vh;
+        left: 0rem;
+        width: 700px;
+        height: auto;
+        z-index: 0;
+    }
+
     .padding {
         padding-top: 0rem;
     }
@@ -1115,7 +1161,7 @@
     
         background-color: var(--primaryColor);
         margin-top: -3.5rem;
-        height: 430vh;
+        height: 280vh;
         
     }
 
@@ -1130,7 +1176,7 @@
     }
 
     .education-logo {
-        top: 61rem;
+        top: 68rem;
         left: 7rem;
         position: absolute;
         width: 450px;
@@ -1140,7 +1186,7 @@
 
     .text-header {
         margin: auto;
-        font-size: 3rem;
+        font-size: 3.5rem;
         color: var(--thirdColor);
         z-index: 100000;
         border-bottom: 2px dotted white;
@@ -1148,7 +1194,7 @@
     }
     
     .text-text {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         width: 550px;
         margin: auto;
         margin-top: 1rem;
@@ -1166,10 +1212,10 @@
     }
     
     .teacher-logo {
-        top: 16.5rem;
+        top: 18.5rem;
         right: 19%;
         position: absolute;
-        width: 520px;
+        width: 590px;
         height: auto;
         z-index: 10000000;
     }
@@ -1188,7 +1234,7 @@
         cursor: pointer;
         border: none;
         border-radius: 15px;
-        width: 80px;
+        width: 120px;
         margin: auto;
         color: var(--primaryColor);
         padding: 0.5rem;
@@ -1197,6 +1243,7 @@
         margin-top: 3rem;
         transition: 0.2s ease-in-out;
         z-index: 10000000;
+        font-size: 1.5rem;
     }
     
     .hire-email:hover {
@@ -1209,11 +1256,12 @@
         font-size: 5rem;
         margin: auto;
         margin-bottom: 11rem;
+        margin-top: 2rem;
        
     }
     
     .hire-subtitle {
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         width: 350px;
         color: var(--thirdColor);
         text-align: center;
@@ -1529,25 +1577,17 @@
         margin-top: 2rem;
         margin: auto;
     }
-
-    .text-group2 {
-        margin: auto;
-        margin-left: 7rem;
-        width: 350px;
-        z-index: 100000;
-        margin: auto;
-        margin-top: 9rem;
-    }
     
     .hire-list {
         margin-top: 9rem;
-        margin-left: 5rem;
-        margin-right: 2rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
         text-align: center;
         width: 400px;
         z-index: 100000;
         margin: auto;
         margin-top: 1rem;
+        width: 100%;
     
     }
     
@@ -1560,14 +1600,15 @@
     .hire-list-header {
         font-size: 2.5rem;
         color: var(--thirdColor);
-        width: 400px;
+        width: 100%;
         margin-bottom: 2rem;
     }
 
 
     .text-header2 {
         margin: auto;
-        font-size: 2.5rem;
+        width: 310px;
+        font-size: 2.2rem;
         color: var(--thirdColor);
         z-index: 100000;
         border-bottom: 2px dotted white;
@@ -1575,7 +1616,8 @@
     
     .text-text2 {
         font-size: 1.5rem;
-        width: 350px;
+        width: 320px;
+        margin-top: 1rem;
         margin: auto;
         margin-top: 1rem;
         color: var(--thirdColor);
@@ -1583,13 +1625,21 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
-    
+    .text-group2 {
+        margin: auto;
+        margin-left: 0rem;
+        margin-left: 0rem;
+        width: 350px;
+        z-index: 100000;
+        margin: auto;
+        margin-top: 9rem;
+    }
    
     .text-group {
         margin-left: 37rem;
         text-align: center;
         margin-top: -1rem;
-        width: 450px;
+        width: 350px;
         margin: auto;
         margin-top: -4rem;
     }
@@ -1605,7 +1655,7 @@
 
     .text-header {
         margin: auto;
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: var(--thirdColor);
         z-index: 100000;
         border-bottom: 2px dotted white;
@@ -1614,7 +1664,7 @@
     
     .text-text {
         font-size: 1.5rem;
-        width: 450px;
+        width: 350px;
         margin: auto;
         margin-top: 1rem;
         color: var(--thirdColor);
@@ -1692,13 +1742,40 @@
 
 @media (max-width: 500px) {
 
+    .hire-particles {
+        position: absolute;
+        top: 3.5rem;
+        right: 1rem;
+        width: 350px;
+        height: auto;
+        z-index: 0;
+    }
+    
+    .hire-particles2 {
+        position: absolute;
+        bottom: -82rem;
+        left: 10rem;
+        width: 200px;
+        height: auto;
+        z-index: 0;
+    }
+    
+    .hire-particles3 {
+        position: absolute;
+        top: 75vh;
+        left: 0rem;
+        width: 350px;
+        height: auto;
+        z-index: 0;
+    }
+
     
    
     .text-group {
         margin-left: 37rem;
         text-align: center;
         margin-top: -1rem;
-        width: 400px;
+        width: 350px;
         margin: auto;
         margin-top: -4rem;
     }
@@ -1707,7 +1784,7 @@
         top: 61rem;
         left: 2rem;
         position: absolute;
-        width: 450px;
+        width: 330px;
         height: auto;
         z-index: 10000000;
     }
@@ -1722,8 +1799,8 @@
     }
     
     .text-text {
-        font-size: 1.5rem;
-        width: 400px;
+        font-size: 1.3rem;
+        width: 350px;
         margin: auto;
         margin-top: 1rem;
         color: var(--thirdColor);
@@ -1737,6 +1814,8 @@
         justify-content: center;
         text-align: center;
         margin-top: 2rem;
+        margin: auto;
+        width: 100%;
         
     }
     
@@ -1744,18 +1823,18 @@
         top: 16.5rem;
         right: 19%;
         position: absolute;
-        width: 520px;
+        width: 310px;
         height: auto;
         z-index: 10000000;
     }
 
     .hire-title-container {
         margin-right: 1rem;
-        width: 400px;
+        width: 350px;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-left: 0rem;
+        margin-left: 1rem;
         margin: auto;
       }
 
@@ -1763,7 +1842,7 @@
         cursor: pointer;
         border: none;
         border-radius: 15px;
-        width: 80px;
+        width: 130px;
         margin: auto;
         color: var(--primaryColor);
         padding: 0.5rem;
@@ -1781,7 +1860,7 @@
     .hire-title {
         color: var(--thirdColor);
         padding-top: 5rem;
-        font-size: 4rem;
+        font-size: 3.5rem;
         margin: auto;
         margin-bottom: 11rem;
        
@@ -1789,7 +1868,7 @@
     
     .hire-subtitle {
         font-size: 1.5rem;
-        width: 350px;
+        width: 330px;
         color: var(--thirdColor);
         text-align: center;
         margin: auto;

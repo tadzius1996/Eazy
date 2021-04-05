@@ -79,7 +79,7 @@ function Review() {
     </svg>
 </div>
 <div className='courses'>
-<p className='course-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci eveniet molestias porro repellat veniam, ullam odit illum maxime similique rem magni quod ipsam? Neque architecto velit atque minus aliquam. <span className='course-span'>Courses</span></p>
+<p className='course-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore adipisci eveniet molestias porro repellat veniam, ullam odit illum maxime similique rem magni quod ipsam? Neque architecto velit atque minus aliquam. <Link to='/Services' className='course-link'><span className='course-span'>Courses</span></Link></p>
 <Link to='/Services' className='course-link'><h1 className='course'>Courses</h1></Link>
 </div>
 <img src='/dots.png' alt='look'  className='look6'/>

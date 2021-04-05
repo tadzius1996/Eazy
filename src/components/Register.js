@@ -55,8 +55,8 @@ function Register() {
             </div>
             </div>
       
-            <form  className='contactContainer-register' data-aos='fade-up' onSubmit={handleRegister}>
-            <div className='contactForm-registerr'>
+            <form  className='contactContainer-register' onSubmit={handleRegister}>
+            <div className='contactForm-registerr' data-aos='fade-up'>
                 <h2 className='register'>Register</h2>
             <input className="form-control-register" name="name" autocomplete="off" type='email' ref={emailRef} required/>
                         <label for='name' className='label-name-register'>

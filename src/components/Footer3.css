@@ -2,8 +2,9 @@
     background-color: orange;
     font-size: 4rem;
     position: absolute;
-    bottom: -118vh;
+    bottom: -135vh;
     width: 100%;
+    padding-top: 7rem;
     z-index: -1;
 }
 
@@ -109,14 +110,28 @@
     transform: scale(1.1);
 }
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
 
     .footer3 {
         background-color: orange;
-        font-size: 4rem;
-        position: absolute;
-        bottom: -154vh;
-        width: 100%;
-        z-index: -1;
+    font-size: 4rem;
+    position: absolute;
+    bottom: -70vh;
+    width: 100%;
+    padding-top: 7rem;
+    z-index: -1;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .footer3 {
+        background-color: orange;
+    font-size: 4rem;
+    position: absolute;
+    bottom: -160vh;
+    width: 100%;
+    padding-top: 7rem;
+    z-index: -1;
     }
 }

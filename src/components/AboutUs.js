@@ -47,7 +47,7 @@ function AboutUs() {
                 </div>
 
                 <div className='about-holder'>
-                  <div className='about-letters-right' data-aos='fade-up'>
+                  <div className='about-letters-right' data-aos='fade-in'>
                   <h3 className='about-title2'>We Love Playing and Learning</h3>
                   <p className='about-desc2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?<br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum omnis neque cumque dolores? Ea dolores adipisci veniam, ex omnis iste, illo dolorum consequuntur commodi nam, velit reprehenderit repellendus suscipit sint?</p>
                   </div>

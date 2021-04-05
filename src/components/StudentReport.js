@@ -1,10 +1,16 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './Dashboard.css'
 import useGlobalProvider from '../context'
 import {useHistory, Link} from 'react-router-dom'
 import './StudentReport.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function StudentReport() {
+
+  useEffect(() => {
+    Aos.init({duration: 3000});
+  }, []);
 
     const {logout} = useGlobalProvider();
     const [error, setError] = useState('');
@@ -36,7 +42,7 @@ function StudentReport() {
                 </ul>
             </div>
             <div className='dashboard-nav2'>
-            <img src='/data.png' alt='gallery' className='dashboard-image5'/>
+            <img src='/data.png' alt='gallery' className='dashboard-image5' data-aos='fade-left'/>
             </div>
         </div>
     )

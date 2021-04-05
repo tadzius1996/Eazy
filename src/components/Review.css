@@ -16,6 +16,7 @@
   line-height: 0;
   transform: rotateX(180deg);
   z-index: 100000000000000000000000000000000000000000000000000000;
+  display: none;
 }
 
 .ccustom-shape-divider-top-1616377103 svg {
@@ -138,6 +139,7 @@
 
 .cccustom-shape-divider-bottom-1616407588 .shape-fill {
   fill: #FFA500;
+  
 }
 
 .clouds {
@@ -311,7 +313,7 @@
     width: 600px;
     font-size: 4.5rem;
     text-align: center;
-    margin-top: 8.1rem;
+    margin-top: 0rem;
     z-index: 1000000000000000000000000000000000000000000000;
     transition: 0.2s ease-in-out;
   }
@@ -515,15 +517,20 @@
   
   .look4 {
     position: absolute;
-    bottom: -31rem;
+    bottom: -21rem;
     left: 2%;
     width: 320px;
     height: auto;
-    z-index: 10000000000;
+    z-index: 10;
   }
 
   .look5 {
-    z-index: 1;
+    position: absolute;
+    bottom: -21rem;
+    left: 2%;
+    width: 320px;
+    height: auto;
+    z-index: 10;
   }
 
   .course-text {
@@ -717,6 +724,116 @@
 
 }
 
+@media (max-width: 768px) {
+
+  .review-title {
+    width: 700px;
+  }
+
+  .card-title {
+    font-size: 2.3rem;
+  }
+
+  .card-text {
+    font-size: 1.4rem;
+  }
+
+  .course-text {
+    font-size: 1.5rem;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+  
+  }
+
+  .course {
+    text-align: center;
+    cursor: pointer;
+    display: none;
+  }
+
+  .course-span {
+    margin-top: 2rem;
+    font-size: 5rem;
+  }
+
+  .look6 {
+    top:1rem;
+    left: 0;
+    display: none;
+  }
+
+
+  .look5 {
+    position: absolute;
+    bottom: 0rem;
+    left: 2%;
+    width: 320px;
+    height: auto;
+    z-index: 10;
+  }
+
+  .look4 {
+    position: absolute;
+    bottom: 0rem;
+    left: 2%;
+    width: 320px;
+    height: auto;
+    z-index: 10;
+  }
+  .look3 {
+    position: absolute;
+    bottom: 0rem;
+    right: 0%;
+    width: 310px;
+    height: auto;
+    z-index: 10000000000;
+    display: none;
+  }
+
+  .cccustom-shape-divider-bottom-1616407588 {
+    position: absolute;
+    bottom: 34rem;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+  }
+  
+  .cccustom-shape-divider-bottom-1616407588 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 550px;
+    transform: rotateY(180deg);
+  }
+  
+  .cccustom-shape-divider-bottom-1616407588 .shape-fill {
+    fill: #FFA500;
+    
+  }
+  
+  .courses {
+    bottom: 0rem;
+    position: absolute;
+    font-size: 2rem;
+    color: var(--thirdColor);
+    letter-spacing: 5px;
+    z-index: 10000000000000000000000000000000000000000000;
+    height: 18%;
+    width: 100%;
+    background-color: var(--primaryColor);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  
+    
+  }
+}
+  
+
 @media (max-width: 700px) {
   .card {
     width: 400px;
@@ -842,9 +959,9 @@
 
   .look3 {
     position: absolute;
-    bottom: -30rem;
-    right: -4%;
-    width: 320px;
+    bottom: 0rem;
+    right: 0%;
+    width: 310px;
     height: auto;
     z-index: 10000000000;
   }
@@ -885,6 +1002,54 @@
 }
 
 @media (max-width: 520px) {
+
+  .course-text {
+    font-size: 1rem;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    margin-top: 5rem;
+  
+  }
+
+  .course {
+    text-align: center;
+    cursor: pointer;
+    display: none;
+  }
+
+  .course-span {
+    margin-top: 2rem;
+    font-size: 4rem;
+  }
+
+  .courses {
+    bottom: -10rem;
+    position: absolute;
+    font-size: 2rem;
+    color: var(--thirdColor);
+    letter-spacing: 5px;
+    z-index: 10000000000000000000000000000000000000000000;
+    height: 18%;
+    width: 100%;
+    background-color: var(--primaryColor);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+  
+    
+  }
+
+  .cccustom-shape-divider-bottom-1616407588 {
+    position: absolute;
+    bottom: -18rem;
+    z-index: 1;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+    display: none;
+  }
 
   .review-title {
     color: var(--primaryColor);
@@ -935,7 +1100,7 @@
   .review-title {
     color: var(--primaryColor);
     margin: auto;
-    width: 380px;
+    width: 360px;
     font-size: 3rem;
     text-align: center;
     margin-top: 8.1rem;
@@ -985,6 +1150,14 @@
     padding-bottom: 1rem;
     font-size: 2rem;
   }
+
+  .course-span {
+    padding-top: 1rem;
+    font-size: 4rem;
+  }
+
+  
+  
   
 }
 

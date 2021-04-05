@@ -1,8 +1,7 @@
 .footer2 {
     background-color: orange;
     font-size: 4rem;
-    position: absolute;
-    bottom: -314.5vh;
+    margin-top: -35px;
     width: 100%;
     z-index: -1;
 }
@@ -33,7 +32,7 @@
 }
 
 .footerContent2{
-    margin-top: 3.3rem;
+    padding-top: 3.3rem;
     text-align: center;
     z-index: 10000000000000000000;
     left: 39%;

@@ -1,13 +1,19 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './Dashboard.css'
 import useGlobalProvider from '../context'
 import {useHistory, Link} from 'react-router-dom'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Dashboard() {
 
     const {logout, currentUser} = useGlobalProvider();
     const [error, setError] = useState('');
     const history = useHistory();
+
+    useEffect(() => {
+      Aos.init({duration: 3000});
+    }, []);
 
     async function handleLogout() {
   
@@ -26,7 +32,7 @@ function Dashboard() {
             <div className='padding' />
             <div className='dashboard-nav'>
             <div className='padding' />
-                <ul className='dashboard-list'>
+                <ul className='dashboard-list' data-aos='fade-right'>
                 <Link to='/MyProfile' className='dashboard-item'><li className='dashboard-item'>My Profile</li></Link>
                 <Link to='/StudentReport' className='dashboard-item'><li className='dashboard-item'>Student Report</li></Link>
                 <Link to='/Calender' className='dashboard-item'><li className='dashboard-item'>Calender</li></Link>
@@ -41,8 +47,8 @@ function Dashboard() {
               <p className='dashboard-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ullam, inventore sapiente neque rem dolore! Fugit eligendi amet voluptatem ab debitis. Provident culpa sint aperiam ipsa illum alias necessitatibus! Aut?</p>
             </div>
 
-            <div className='dashboard-nav2'>
-              <img src='/welcome 1.png' alt='welcome' className='dashboard-image'/>
+            <div className='dashboard-nav2' >
+              <img src='/welcome 1.png' alt='welcome' className='dashboard-image' data-aos='fade-left'/>
             </div>
         </div>
     )

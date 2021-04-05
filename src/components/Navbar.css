@@ -448,7 +448,7 @@
   color: var(--primaryColor);
   position: absolute;
   left: 3rem;
-  top: 0.6rem;
+  top: 0.3rem;
   cursor: pointer;
   display: block;
   z-index: 10000000000000000000000000000000000000000000000000000000000000000;
@@ -456,14 +456,14 @@
 
 .subLogo-burger {
   position: absolute;
-  font-size: 0.7rem;
-  top: 2.5rem;
-  left: 7rem;
+  font-size: 0.9rem;
+  top: 4rem;
+  left: 3.2rem;
   z-index: 1000;
   color: var(--primaryColor);
   display: block;
   cursor: pointer;
-  transform: rotate(90deg);
+ 
 }
 
 .navbar {
@@ -536,7 +536,7 @@
     .list-item-burger {
       cursor: pointer;
       padding-bottom: 1rem;
-      padding-left: 1.5rem;
+      padding-left: 1rem;
       padding-right: 1.5rem;
       font-size: 1.2rem;
       color: var(--thirdColor);
@@ -550,7 +550,7 @@
       cursor: pointer;
       margin-top: 7.5rem;
       padding-bottom: 1rem;
-      padding-left: 1.5rem;
+      padding-left: 1rem;
       padding-right: 1.5rem;
       font-size: 1.2rem;
       color: var(--thirdColor);

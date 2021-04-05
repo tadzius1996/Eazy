@@ -18,7 +18,7 @@
     margin-top: -5rem;
     background-color: var(--primaryColor);
     padding-top: 5rem;
-    height: 176vh;
+    height: 201vh;
 }
 
 .contact-container {
@@ -376,6 +376,16 @@
 
 @media (max-width: 768px) {
 
+    .bear-title {
+        margin-left: 2rem;
+        font-size: 5rem;
+        color: var(--thirdColor);
+        text-align: center;
+        margin-top: 4rem;
+        margin-bottom: 7rem;
+    }
+    
+
     .padding {
         margin-top: 0;
     }
@@ -459,6 +469,13 @@
         width: 550px;
         height: auto;
         z-index: 10000000;
+    }
+
+    .register-place {
+        margin-top: -5rem;
+        background-color: var(--primaryColor);
+        padding-top: 5rem;
+        height: 126vh;
     }
 }
 

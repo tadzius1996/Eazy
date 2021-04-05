@@ -1,11 +1,9 @@
 .footer5 {
     background-color: orange;
     font-size: 4rem;
-    position: absolute;
-    bottom: -2.3vh;
+    margin-top: -5px;
     width: 100%;
-    z-index: 1;
-    height: 80px;
+    z-index: -1;
 }
 
 .xccccustom-shape-divider-bottom-1616461942 {
@@ -115,12 +113,11 @@
 
     .footer5 {
         background-color: orange;
-        font-size: 4rem;
-        position: absolute;
-        bottom: 0vh;
-        width: 100%;
-        z-index: 1;
-        height: 80px;
+    font-size: 4rem;
+    margin-top: 50px;
+    padding-top: 62px;
+    width: 100%;
+    z-index: -1;
     }
 
     .footerContent5{

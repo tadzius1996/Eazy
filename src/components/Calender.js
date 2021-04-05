@@ -1,10 +1,16 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect} from 'react'
 import './Dashboard.css'
 import useGlobalProvider from '../context'
 import {useHistory, Link} from 'react-router-dom'
 import './Calender.css'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function Calender() {
+
+  useEffect(() => {
+    Aos.init({duration: 3000});
+  }, []);
 
     const {logout} = useGlobalProvider();
     const [error, setError] = useState('');
@@ -36,7 +42,7 @@ function Calender() {
                 </ul>
             </div>
             <div className='dashboard-nav2'>
-            <img src='/calender11.png' alt='gallery' className='dashboard-image4'/>
+            <img src='/calender11.png' alt='gallery' className='dashboard-image4' data-aos='fade-left'/>
             </div>
         </div>
     )

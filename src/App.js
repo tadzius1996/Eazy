@@ -16,6 +16,7 @@ import MyProfile from './components/MyProfile';
 import StudentReport from './components/StudentReport';
 import Calender from './components/Calender';
 import Gallery from './components/Gallery';
+import CallenderApp from './components/CalenderApp';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path='/Login' component={Login} />
           <Route path='/Services' component={Services} />
           <Route path='/Hire' component={Hire} />
+         
           <PrivateRoute path='/Dashboard' component={Dashboard} />
           <PrivateRoute path='/MyProfile' component={MyProfile} />
           <PrivateRoute path='/StudentReport' component={StudentReport} />

@@ -22,7 +22,7 @@ function Hire() {
                 <div className='hire-title-container'>
                 <h2 className='hire-title' data-aos='fade-right'>We're Hiring!</h2>
                 <p className='hire-subtitle' data-aos='fade-right'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem, ex deserunt? Voluptates, eos, doloribus commodi quas, fuga sunt voluptatum officia.</p>
-                <button className='hire-email' data-aos='fade-right'>Send CV</button>
+                <button className='hire-email' data-aos='fade-in'>Send CV</button>
                 </div>
                 <div className='hire-container'>
                 <div className='text-group' data-aos='fade-up'>

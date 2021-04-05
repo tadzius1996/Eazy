@@ -390,14 +390,35 @@
     }
 }
 
-@media (max-width: 786px) {
+@media (max-width: 768px) {
+
+    .contact-particles2 {
+        position: absolute;
+        bottom: -36rem;
+        left: 3rem;
+        width: 550px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .contact-particles3 {
+        position: absolute;
+        top: 4rem;
+        left: 2rem;
+        width: 700px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
 
     .padding {
         margin-top: 0;
     }
 
     .contact-place {
-        height: 255vh;
+        height: 150vh;
         margin-top: -4rem;
         background-color: var(--primaryColor);
     }
@@ -462,7 +483,7 @@
     
 
     .contact-place {
-        height: 235vh;
+        height: 150vh;
         margin-top: -4rem;
         background-color: var(--primaryColor);
     }
@@ -1346,6 +1367,26 @@
 
 @media (max-width: 460px) {
 
+    .contact-particles2 {
+        position: absolute;
+        bottom: -36rem;
+        left: 0rem;
+        width: 350px;
+        height: auto;
+        z-index: 0;
+        
+    }
+    
+    .contact-particles3 {
+        position: absolute;
+        top: 4rem;
+        left: 2rem;
+        width: 250px;
+        height: auto;
+        z-index: 0;
+        
+    }
+
     .contactt-btn {
         font-size: 1rem;
         background-color: transparent;
@@ -1356,7 +1397,7 @@
         transition: 0.2s ease-in-out;
         margin: auto;
         margin-top: 2rem;
-        margin-left: 3rem;
+        
     }
 
     .contact-place {
@@ -1420,14 +1461,14 @@
     }
 
     .write-us {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
         margin-top: 8.5rem;
         text-align: center;
         color: var(--thirdColor);
     }
 
     .form-control {
-        width: 120%;
+        width: 170%;
         height: 15%;
         padding-top: 15px;
         border: none;
@@ -1441,7 +1482,7 @@
     }
 
     .contactForm {
-        width: 50%;
+        width: 100%;
         height: 50%;
         position: relative;
         
@@ -1449,6 +1490,7 @@
         margin-top: 1rem;
         margin: auto;
         margin-left: 1.5rem;
+        margin: auto;
         font-family: Arial, Helvetica, sans-serif;
     }
 
@@ -1458,6 +1500,21 @@
         left: 0;
         color: var(--primaryColor);
         pointer-events: none;
+    }
+
+    .contactContainer {
+        width: 350px;
+        height: 460px;
+        text-align: center;
+        background-color: transparent;
+        margin: auto;
+        margin-bottom: 3rem;
+        margin-top: 0rem;
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 5rem;
+        text-align: center;
+        z-index: 10000;
     }
 
     

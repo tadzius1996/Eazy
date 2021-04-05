@@ -1,6 +1,6 @@
 .contactContainer-login {
     width: 690px;
-    height: 440px;
+    height: 490px;
     text-align: center;
     background-color: var(--primaryColor);
     border-radius: 15px;
@@ -15,7 +15,7 @@
 }
 
 .login-place {
-    margin-top: -4rem;
+    margin-top: -8.9rem;
     background-color: var(--primaryColor);
     padding-top: 3rem;
 }
@@ -219,6 +219,7 @@
 .login {
     font-size: 5rem;
     color: var(--thirdColor);
+    margin-top: 4.5rem;
 }
 
 @media (max-width: 1200px) {
@@ -275,13 +276,19 @@
 
 @media (max-width: 768px) {
 
+    .login {
+        margin-top: 10rem;
+        font-size: 6rem;
+        color: var(--thirdColor);
+    }
+
     .padding {
         margin-top: 0;
     }
 
     .contactContainer-login {
         width: 500px;
-        height: 465px;
+        height: 785px;
         text-align: center;
         background-color: var(--primaryColor);
         border-radius: 15px;
@@ -297,9 +304,9 @@
 
     .login-particles {
         position: absolute;
-        bottom: 1rem;
+        bottom: 5rem;
         right: 2rem;
-        width: 800px;
+        width: 400px;
         height: auto;
         z-index: 0;
         
@@ -309,7 +316,7 @@
         position: absolute;
         top: 8rem;
         left: 0rem;
-        width:800px;
+        width:500px;
         height: auto;
         z-index: 0;
         
@@ -319,7 +326,7 @@
         position: absolute;
         top: 6rem;
         left: 25rem;
-        width:900px;
+        width:500px;
         height: auto;
         z-index: 0;
         display: none;
@@ -351,7 +358,7 @@
         position: absolute;
         bottom: 1rem;
         right: 2rem;
-        width: 800px;
+        width: 500px;
         height: auto;
         z-index: 0;
         
@@ -361,7 +368,7 @@
         position: absolute;
         top: 8rem;
         left: 1rem;
-        width:800px;
+        width:500px;
         height: auto;
         z-index: 0;
         
@@ -371,7 +378,7 @@
         position: absolute;
         top: 6rem;
         left: 25rem;
-        width:900px;
+        width:500px;
         height: auto;
         z-index: 0;
         display: none;
@@ -384,9 +391,16 @@
 
 @media (max-width: 450px) {
 
+    .login {
+        margin-top: 8rem;
+        font-size: 4rem;
+        color: var(--thirdColor);
+    }
+
+
     .contactContainer-login {
         width: 350px;
-        height: 465px;
+        height: 565px;
         text-align: center;
         background-color: var(--primaryColor);
         border-radius: 15px;
@@ -404,7 +418,7 @@
         position: absolute;
         bottom: 1rem;
         right: 2rem;
-        width: 800px;
+        width: 350px;
         height: auto;
         z-index: 0;
         
@@ -413,8 +427,8 @@
     .login-particles2 {
         position: absolute;
         top: 8rem;
-        left: 1rem;
-        width:800px;
+        left: 0rem;
+        width:350px;
         height: auto;
         z-index: 0;
         
@@ -424,7 +438,7 @@
         position: absolute;
         top: 6rem;
         left: 25rem;
-        width:900px;
+        width:350px;
         height: auto;
         z-index: 0;
         display: none;

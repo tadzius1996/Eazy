@@ -1,3 +1,12 @@
+
+.course-clouds4 {
+    display: none;
+}
+
+.course-clouds5 {
+    display: none;
+}
+
 .course-container {
     display: flex;
     flex-direction: row;
@@ -17,6 +26,7 @@
    
     margin: auto;
     justify-content: center;
+    margin-bottom: 3rem;
 }
 
 .course-holder {
@@ -261,6 +271,82 @@
     }
   }
 
+  @media (max-width: 768px) {
+
+    .demo-text {
+        font-size: 1.5rem;
+        color: var(--primaryColor);
+        width: 500px;
+        margin:auto;
+        margin-top: 1rem;
+        z-index: 10;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hero {
+        position: absolute;
+        width: 180px;
+        height: auto;
+        z-index: 0;
+        top: 42vh;
+        right: 2rem;
+        z-index: 0;
+    }
+
+    .demo-container {
+        margin-top: 3rem;
+        text-align: center;
+        z-index: 10;
+    }
+
+    .course-clouds {
+        position: absolute;
+        z-index: 1;
+        height: 250px;
+        position: absolute;
+        top: 7rem;
+        left: 0;
+        width: auto;
+    }
+    
+    .course-clouds2 {
+        position: absolute;
+        top: 130vh;
+        right: 0;
+        z-index: 1;
+        height: 200px;
+        width: auto;
+    }
+    
+    .course-clouds3 {
+        position: absolute;
+        top: 260vh;
+        left: 0;
+        z-index: 1;
+        height: 200px;
+        width: auto;
+    }
+
+    .course-clouds4 {
+        position: absolute;
+        top: 360vh;
+        right: 0;
+        z-index: 1;
+        height: 200px;
+        width: auto;
+        
+    }
+
+    .course-clouds5 {
+        position: absolute;
+        top: 420vh;
+        left: 0;
+        z-index: 1;
+        height: 200px;
+        width: auto;
+        
+    }
+  }
   
   @media (max-width: 650px) {
       .wishes {
@@ -457,10 +543,11 @@
       font-size: 3rem;
       color: var(--primaryColor);
       z-index: 10;
+      margin-top: -3.5rem;
   }
   
   .demo-text {
-      font-size: 1.1rem;
+      font-size: 1.2rem;
       color: var(--primaryColor);
       width: 350px;
       margin:auto;
@@ -471,17 +558,17 @@
 
   .plane {
     position: absolute;
-    width: 600px;
+    width: 350px;
     height: auto;
     z-index: 0;
     top:70vh;
-    left: 4rem;
+    left: 0rem;
     z-index: 0;
 }
 
 .course-holder {
     height: 300px;
-    width: 350px;
+    width: 330px;
     margin: auto;
     margin-top: 2rem;
     text-align: center;
@@ -563,11 +650,60 @@
     border: 1px solid orange;
     border-radius: 15px;
     color: var(--primaryColor);
-    font-size: 0.9rem;
+    font-size: 1rem;
     margin-top: 1rem;
     transition: 0.2s ease-in-out;
     cursor: pointer;
     z-index: 10;
+    outline: none;
+}
+
+.course-clouds {
+    position: absolute;
+    z-index: 1;
+    height: 150px;
+    position: absolute;
+    top: 7rem;
+    left: 0;
+    width: auto;
+}
+
+.course-clouds2 {
+    position: absolute;
+    top: 130vh;
+    right: 0;
+    z-index: 1;
+    height: 150px;
+    width: auto;
+}
+
+.course-clouds3 {
+    position: absolute;
+    top: 260vh;
+    left: 0;
+    z-index: 1;
+    height: 150px;
+    width: auto;
+}
+
+.course-clouds4 {
+    position: absolute;
+    top: 360vh;
+    right: 0;
+    z-index: 1;
+    height: 150px;
+    width: auto;
+    
+}
+
+.course-clouds5 {
+    position: absolute;
+    top: 420vh;
+    left: 0;
+    z-index: 1;
+    height: 150px;
+    width: auto;
+    
 }
 
 

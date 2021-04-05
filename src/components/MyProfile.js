@@ -1,9 +1,15 @@
-import React, {useState, useRef} from 'react'
+import React, {useState, useRef, useEffect} from 'react'
 import './MyProfile.css'
 import useGlobalProvider from '../context'
 import {useHistory, Link} from 'react-router-dom'
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 
 function MyProfile() {
+
+  useEffect(() => {
+    Aos.init({duration: 3000});
+  }, []);
 
     const {currentUser, logout, updatePassword, updateEmail} = useGlobalProvider();
     const [error, setError] = useState('');
@@ -75,10 +81,10 @@ function MyProfile() {
             </div>
 
             <div className='profile-container'>
-              <h1 className='profile-title'>My Profile</h1>
+              <h1 className='profile-title' data-aos='fade-down'>My Profile</h1>
               
 
-              <form  className='contactContainer-dashboard' data-aos='fade-up' type='submit' onSubmit={handleUpdate}>
+              <form  className='contactContainer-dashboard' data-aos='fade-down' type='submit' onSubmit={handleUpdate}>
             <div className='contactForm-registerr'>
             <input className="form-control-register" name="name" autocomplete="off" type="email" ref={emailRef} defaultValue={currentUser.email} required/>
                         <label for='name' className='label-name-register'>
@@ -102,7 +108,7 @@ function MyProfile() {
             </div>
 
             <div className='dashboard-nav2'>
-            <img src='/profile1.png' alt='welcome' className='dashboard-image2'/>
+            <img src='/profile1.png' alt='welcome' className='dashboard-image2' data-aos='fade-left'/>
             </div>
         </div>
     )

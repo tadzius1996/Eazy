@@ -2,7 +2,7 @@
     background-color: orange;
     font-size: 4rem;
     position: absolute;
-    bottom: -80vh;
+    bottom: -105vh;
     width: 100%;
     z-index: 1;
 }
@@ -116,6 +116,19 @@
         font-size: 4rem;
         position: absolute;
         bottom: -110vh;
+        width: 100%;
+        z-index: 1;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer4 {
+        background-color: orange;
+        font-size: 4rem;
+        position: absolute;
+        bottom: -50vh;
+        padding-top: 6rem;
         width: 100%;
         z-index: 1;
     }

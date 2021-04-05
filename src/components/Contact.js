@@ -29,7 +29,7 @@ function Contact() {
 
             <div className='contactArea'>
             <img src='/building.PNG' alt='building' data-aos='fade-right' className='building'/>
-            <div className='address-place' data-aos='fade-left'>
+            <div className='address-place' data-aos='fade-up'>
             <h3 className='contact-address-title'>We're Excited to See You!</h3>
             <p className='contact-address-text'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nulla impedit nihil ullam itaque iste repudiandae, fuga dicta explicabo exercitationem repellat. Maiores est quis suscipit consectetur soluta iusto ad officia?</p>
             <ul className='address-list'>
@@ -40,8 +40,8 @@ function Contact() {
             </div>
              
             <h2 className='write-us' data-aos='fade-up'>Write Us a Message!</h2>
-            <form onSubmit={sendEmail} className='contactContainer' data-aos='fade-up'>
-            <div className='contactForm'>
+            <form onSubmit={sendEmail} className='contactContainer'>
+            <div className='contactForm'  data-aos='fade-up'>
             <input type="text" className="form-control" name="name" autocomplete="off" required/>
                         <label for='name' className='label-name'>
                             <span class='content-name'>Name</span>

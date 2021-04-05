@@ -50,17 +50,18 @@ function Navbar() {
             </div> 
 
 
-            <h2 className='logo-burger'>EZ</h2><span className='subLogo-burger'>English Center</span>
+            <Link to='/'><h2 className='logo-burger'>EZ</h2><span className='subLogo-burger'>English Center</span></Link>
             <FaBars className='bars' onClick={() => setOpen(!open)} />
             <div className='overlay' onClick={() => setOpen(!open)} style={{display: open ? 'block' : 'none'}}/>
 
             <div className='nav-burger' style={{transform: open ? 'translate(0px)' : '' }}>
             <AiOutlineClose className='bars' onClick={() => setOpen(!open)} />
             <ul className='list-items-burger'>
-            <Link to='/AboutUs' className='list-item-burgerFirst'><li >About us</li></Link>
-            <Link to='/Services' className='list-item-burger'><li>Services</li></Link>
-            <Link to='/Hire' className='list-item-burger'><li>Hire</li></Link>
-            <Link to='/Contact' className='list-item-burger'><li>Contact</li></Link>
+            <Link to='/AboutUs' className='list-item-burgerFirst' onClick={() => setOpen(!open)}><li >About us</li></Link>
+            <Link to='/Services' className='list-item-burger' onClick={() => setOpen(!open)}><li>Services</li></Link>
+            <Link to='/Hire' className='list-item-burger' onClick={() => setOpen(!open)}><li>Hire</li></Link>
+            <Link to='/Contact' className='list-item-burger' onClick={() => setOpen(!open)}><li>Contact</li></Link>
+            <Link to='/Login' className='list-item-burger' onClick={() => setOpen(!open)}><li>Login</li></Link>
                 </ul>
                 <div className='burger-social-list'>
                 <a href='https://www.facebook.com/ezhalong/'><AiOutlineFacebook  className='burger-social'/></a>

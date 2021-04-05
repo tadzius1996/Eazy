@@ -16,6 +16,8 @@ function Services() {
             <img src='course-clouds.png' alt='clouds' className='course-clouds' data-aos='fade-up'/>
             <img src='course-clouds.png' alt='clouds' className='course-clouds2' data-aos='fade-up'/>
             <img src='course-clouds.png' alt='clouds' className='course-clouds3' data-aos='fade-up'/>
+            <img src='course-clouds.png' alt='clouds' className='course-clouds4' data-aos='fade-up'/>
+            <img src='course-clouds.png' alt='clouds' className='course-clouds5' data-aos='fade-up'/>
             <img src='/course-ballon.png' alt='plane' className='plane' data-aos='fade-right'/>
             <img src='wishes.png' alt='plane' className='wishes' data-aos='fade-left'/>
             <img src='superHero 1.png' alt='hero' className='hero' data-aos='fade-left'/>
@@ -140,7 +142,7 @@ function Services() {
                 <div className='course-overlay' id='course-overlay'/>
             </div>
 
-            <div className='course-holder' data-aos='fade-up'>
+            <div className='course-holder ' data-aos='fade-in'>
             <img src='image1.jpg' alt='about' className='course-image'/>
             <div className='course-info' id='course-info'>
                 <div className='course-title' id='course-title'>Seed 1 (4 years)</div>

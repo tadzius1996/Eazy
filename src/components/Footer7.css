@@ -1,8 +1,8 @@
 .footer7 {
-    background-color: var(--primaryColor);
+    background-color: orange;
     font-size: 4rem;
-    position: absolute;
-    bottom: -210vh;
+    margin-top: 0px;
+    padding-top: 10px;
     width: 100%;
     z-index: -1;
 }
@@ -156,10 +156,9 @@
 @media (max-width: 1030px) {
 
     .footer7 {
-        background-color: var(--primaryColor);
+        background-color: orange;
         font-size: 4rem;
-        position: absolute;
-        bottom: -245vh;
+        margin-top: -49px;
         width: 100%;
         z-index: -1;
     }
@@ -170,12 +169,11 @@
 @media (max-width: 1000px) {
 
     .footer7 {
-        background-color: var(--primaryColor);
-        font-size: 4rem;
-        position: absolute;
-        bottom: -275vh;
-        width: 100%;
-        z-index: -1;
+        background-color: orange;
+    font-size: 4rem;
+    margin-top: -49px;
+    width: 100%;
+    z-index: -1;
     }
 
 
@@ -184,12 +182,11 @@
 @media (max-width: 950px) {
 
     .footer7 {
-        background-color: var(--primaryColor);
-        font-size: 4rem;
-        position: absolute;
-        bottom: -290vh;
-        width: 100%;
-        z-index: -1;
+        background-color: orange;
+    font-size: 4rem;
+    margin-top: -49px;
+    width: 100%;
+    z-index: -1;
     }
 
 
@@ -198,10 +195,9 @@
 @media (max-width: 860px) {
 
     .footer7 {
-        background-color: var(--primaryColor);
+        background-color: orange;
         font-size: 4rem;
-        position: absolute;
-        bottom: -330vh;
+        margin-top: -49px;
         width: 100%;
         z-index: -1;
     }
@@ -212,10 +208,10 @@
 @media (max-width: 768px) {
 
     .footer7 {
-        background-color: var(--primaryColor);
+        background-color: orange;
         font-size: 4rem;
-        position: absolute;
-        bottom: -350vh;
+        margin-top: 0px;
+        padding-top:11rem;
         width: 100%;
         z-index: -1;
     }
@@ -226,10 +222,9 @@
 @media (max-width: 610px) {
 
     .footer7 {
-        background-color: var(--primaryColor);
+        background-color: orange;
         font-size: 4rem;
-        position: absolute;
-        bottom: -360vh;
+        margin-top: -49px;
         width: 100%;
         z-index: -1;
     }
@@ -240,10 +235,9 @@
 @media (max-width: 525px) {
 
     .footer7 {
-        background-color: var(--primaryColor);
+        background-color: orange;
         font-size: 4rem;
-        position: absolute;
-        bottom: -370vh;
+        margin-top: -10rem;
         width: 100%;
         z-index: -1;
     }
