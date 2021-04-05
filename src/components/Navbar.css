@@ -469,12 +469,12 @@
 .navbar {
   background-color:  var(--thirdColor);
   height: 100px;
-  position: fixed;
+  position: static;
   display: flex;
   justify-content: center;
   width: 100%;
   z-index: 1000000000000000000000000000000000000000;
-
+   
 }
 
 #wave {
