@@ -15,7 +15,7 @@
 }
 
 .login-place {
-    margin-top: -2.9rem;
+    margin-top: -3rem;
     background-color: var(--primaryColor);
     padding-top: 3rem;
 }
@@ -276,6 +276,13 @@
 
 @media (max-width: 768px) {
 
+    .login-place {
+        margin-top: -3rem;
+        background-color: var(--primaryColor);
+        padding-top: 3rem;
+        z-index: 1;
+    }
+
     .login {
         margin-top: 10rem;
         font-size: 6rem;
@@ -392,7 +399,7 @@
 @media (max-width: 450px) {
 
     .login {
-        margin-top: 8rem;
+        margin-top: 0rem;
         font-size: 4rem;
         color: var(--thirdColor);
     }
@@ -400,7 +407,7 @@
 
     .contactContainer-login {
         width: 350px;
-        height: 565px;
+        height: 385px;
         text-align: center;
         background-color: var(--primaryColor);
         border-radius: 15px;
@@ -421,7 +428,7 @@
         width: 350px;
         height: auto;
         z-index: 0;
-        
+        display: none;
     }
     
     .login-particles2 {

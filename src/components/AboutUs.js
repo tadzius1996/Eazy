@@ -14,9 +14,9 @@ function AboutUs() {
         <div className='aboutUs'>
           <div className='padding' />
             <div className='about-header'>
-            <img src='/group4.png' alt='team'  className='team-group' data-aos='fade-up'/>
+            <img src='/group4.png' alt='team'  className='team-group' data-aos='fade-in'/>
             <img src='/circlesColor.png' alt='circles'  className='circles' data-aos='fade-in'/>
-            <div className='about-header-div' data-aos='fade-up'>
+            <div className='about-header-div' data-aos='fade-in'>
               <h3 className='about-header-title'>About Us</h3>
               <p className='about-header-text'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque, saepe? Distinctio, in. Delectus iure sapiente aperiam, mollitia earum ratione.</p>
               </div>
