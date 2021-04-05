@@ -47,7 +47,7 @@ function Hire() {
                     <h3 className='text-header2'>Do you like working with children?</h3>
                     <p className='text-text2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, magnam. Ut ducimus, magnam sed modi dolore veniam porro. Illo necessitatibus dolor voluptatibus tempora. Cum fuga ex veniam culpa suscipit? Id.</p>
                 </div>
-                <ul className='hire-list' data-aos='fade-up'>
+                <ul className='hire-list' data-aos='fade-in'>
                     <h2 className='hire-list-header'>Terms/Conditions</h2>
                     <li className='hire-item'>What we offer</li>
                     <li className='hire-item'>What we offer</li>

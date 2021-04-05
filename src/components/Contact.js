@@ -41,7 +41,7 @@ function Contact() {
              
             <h2 className='write-us' data-aos='fade-up'>Write Us a Message!</h2>
             <form onSubmit={sendEmail} className='contactContainer'>
-            <div className='contactForm'  data-aos='fade-up'>
+            <div className='contactForm'  data-aos='fade-in'>
             <input type="text" className="form-control" name="name" autocomplete="off" required/>
                         <label for='name' className='label-name'>
                             <span class='content-name'>Name</span>

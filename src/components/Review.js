@@ -21,7 +21,7 @@ function Review() {
         <img src='/cloudz.png' alt='clouds' className='clouds' />
         <h1 className='review-title' data-aos='fade-up'>Our Happy Parents and Students</h1>
         <div className='review-section'>
-            <div className='card' data-aos='fade-up'>
+            <div className='card' data-aos='fade-in'>
                 <div className='divider'/>
                 <div className='card-container'>
                 <h3 className='card-title'>Name</h3>
@@ -29,7 +29,7 @@ function Review() {
                 </div>
             </div>
 
-            <div className='card' data-aos='fade-up'>
+            <div className='card' data-aos='fade-in'>
                 <div className='divider'/>
                 <div className='card-container'>
                 <h3 className='card-title'>Name</h3>
@@ -37,7 +37,7 @@ function Review() {
                 </div>
             </div>
 
-            <div className='card' data-aos='fade-up'>
+            <div className='card' data-aos='fade-in'>
                 <div className='divider'/>
                 <div className='card-container'>
                 <h3 className='card-title'>Name</h3>

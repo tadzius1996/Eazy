@@ -447,6 +447,10 @@
 
 @media (max-width: 768px) {
 
+    .about-header {
+        z-index: 1;
+    }
+
     .about-header-div {
         margin: auto;
         margin-left: 0rem;
