@@ -512,15 +512,16 @@
     position: absolute;
     z-index: -20;
     right: 0rem;
-    top: -6rem;
+    top: 0rem;
     display: block;
-    width: 350px;
+    width: 250px;
     height: auto;
+    display: none;
   }
 
   .homeTitle {
     margin: auto;
-    margin-top: -4rem;
+    margin-top: -5.7rem;
     text-align: center;
     max-width: 360px;
     height: 260px;
@@ -578,7 +579,7 @@
 }
 
 .slide img{
-  width:100%;
+  width:100vh;
   height: 50%;
   z-index: 10000000000;
   margin: auto;

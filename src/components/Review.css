@@ -772,6 +772,7 @@
     width: 320px;
     height: auto;
     z-index: 10;
+    
   }
 
   .look4 {
@@ -781,6 +782,7 @@
     width: 320px;
     height: auto;
     z-index: 10;
+    
   }
   .look3 {
     position: absolute;
@@ -1154,6 +1156,26 @@
   .course-span {
     padding-top: 1rem;
     font-size: 4rem;
+  }
+
+  .look5 {
+    position: absolute;
+    bottom: 0rem;
+    left: 2%;
+    width: 320px;
+    height: auto;
+    z-index: 10;
+    display: none;
+  }
+
+  .look4 {
+    position: absolute;
+    bottom: 0rem;
+    left: 2%;
+    width: 320px;
+    height: auto;
+    z-index: 10;
+    display: none;
   }
 
   

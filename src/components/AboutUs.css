@@ -461,7 +461,7 @@
         color: var(--thirdColor);
         font-size: 7rem;
         margin: auto;
-        margin-top: 2rem;
+        margin-top: 0rem;
     }
     
     .about-header-text {

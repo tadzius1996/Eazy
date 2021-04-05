@@ -541,15 +541,15 @@
 
     .demo-title {
       font-size: 3rem;
-      color: var(--primaryColor);
+      color: black;
       z-index: 10;
       margin-top: -3.5rem;
   }
   
   .demo-text {
       font-size: 1.2rem;
-      color: var(--primaryColor);
-      width: 350px;
+      color: black;
+      width: 305px;
       margin:auto;
       margin-top: 1rem;
       z-index: 10;
@@ -647,9 +647,9 @@
 .demo-register {
     background-color: transparent;
     padding: 0.5rem;
-    border: 1px solid orange;
+    border: 1px solid black;
     border-radius: 15px;
-    color: var(--primaryColor);
+    color: black;
     font-size: 1rem;
     margin-top: 1rem;
     transition: 0.2s ease-in-out;
