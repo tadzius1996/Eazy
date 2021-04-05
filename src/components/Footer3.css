@@ -129,9 +129,9 @@
         background-color: orange;
     font-size: 4rem;
     position: absolute;
-    bottom: -185vh;
+    bottom: -148vh;
     width: 100%;
-    padding-top: 10rem;
+    padding-top: 0rem;
     z-index: -1;
     }
 }
