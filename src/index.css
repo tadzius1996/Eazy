@@ -16,7 +16,8 @@
 
 .body-select {
   background-color: rgb(255, 255, 255);
-  min-height: 100%;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
 }
 
 html {
@@ -38,7 +39,7 @@ li {
 }
 
 .padding {
-  
+  padding-top: 10.5rem;
 }
 
 .error {
@@ -53,5 +54,9 @@ li {
 
   .bigContainer {
     padding-top: 3rem
+  }
+
+  .padding {
+    padding-top: 0rem;
   }
 }

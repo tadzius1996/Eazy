@@ -1408,8 +1408,9 @@
     }
 
     .contact-place {
-        height: 235vh;
+        height: 245vh;
         margin-top: 0rem;
+        
         background-color: var(--primaryColor);
     }
 
