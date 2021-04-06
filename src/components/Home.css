@@ -597,6 +597,11 @@
  -o-background-size: cover;
 }
 
+.slide {
+  min-height: 50vh;
+  max-height: 50vh;
+}
+
 .slides{
   width: 500%;
   max-height: 50rem;

@@ -475,7 +475,8 @@
   .review {
     color:chartreuse;
     font-size: 3rem;
-    height: 125vh;
+    min-height: 125vh;
+    max-height: 125vh;
     width: 100%;
     left: 0;
     margin: auto;
