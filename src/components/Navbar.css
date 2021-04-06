@@ -471,7 +471,7 @@
 .navbar {
   background-color:  var(--thirdColor);
   height: 110px;
-  position: static;
+  position: fixed;
   display: flex;
   justify-content: center;
   width: 100%;

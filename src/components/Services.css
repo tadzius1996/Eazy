@@ -543,7 +543,7 @@
       font-size: 3rem;
       color: black;
       z-index: 10;
-      margin-top: -3.5rem;
+      margin-top: 0rem;
   }
   
   .demo-text {
@@ -704,6 +704,17 @@
     height: 150px;
     width: auto;
     
+}
+
+.course-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(102, 174, 207);
+    margin-top: -3rem;
 }
 
 

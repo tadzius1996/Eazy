@@ -1408,7 +1408,8 @@
     }
 
     .contact-place {
-        height: 225vh;
+        max-height: 225vh;
+        min-height: 225vh;
         margin-top: 0rem;
         
         background-color: var(--primaryColor);
