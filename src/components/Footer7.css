@@ -210,10 +210,12 @@
     .footer7 {
         background-color: orange;
         font-size: 4rem;
-        margin-top: 0px;
-        padding-top:11rem;
+        position: absolute;
+        bottom: -218vh;
         width: 100%;
-        z-index: -1;
+        padding-top: 0rem;
+        z-index: 1;
+        
     }
 
 

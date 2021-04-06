@@ -523,7 +523,7 @@
 
   .homeTitle {
     margin: auto;
-    margin-top: 0rem;
+    margin-top: 7rem;
     text-align: center;
     max-width: 420px;
     height: 260px;
@@ -618,7 +618,7 @@
 }
 .middle{
   position: absolute;
-  top: 13.9rem;
+  top: 20.9rem;
   left: 50%;
   transform: translate(-50%,-50%);
 }

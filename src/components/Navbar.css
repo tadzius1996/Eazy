@@ -459,7 +459,7 @@
 .subLogo-burger {
   position: absolute;
   font-size: 0.9rem;
-  top: 4rem;
+  top: 4.5rem;
   left: 3.2rem;
   z-index: 1000;
   color: var(--primaryColor);

@@ -449,12 +449,13 @@
 
     .about-header {
         z-index: 1;
+        margin: auto;
     }
 
     .about-header-div {
         margin: auto;
         margin-left: 0rem;
-        margin-top: -4rem;
+        margin-top: -8rem;
     }
 
     .padding {
@@ -487,7 +488,7 @@
     
     .team-group {
         position: absolute;
-        top: 26rem;
+        top: 20rem;
         right: 12rem;
         width: 600px;
         height: auto;
