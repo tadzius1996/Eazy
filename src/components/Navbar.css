@@ -460,12 +460,12 @@
   position: absolute;
   font-size: 0.9rem;
   top: 4.5rem;
-  left: 3.2rem;
+  left: 2.9rem;
   z-index: 1000;
   color: var(--primaryColor);
   display: block;
   cursor: pointer;
- 
+  display: none;
 }
 
 .navbar {
@@ -570,6 +570,18 @@
       margin-left: 0.5rem;
       margin-right: 0.5rem;
       transition: 0.2s ease-in-out;
+    }
+
+    .subLogo-burger {
+      position: absolute;
+      font-size: 0.9rem;
+      top: 4rem;
+      left: 3.2rem;
+      z-index: 1000;
+      color: var(--primaryColor);
+      display: block;
+      cursor: pointer;
+     
     }
 
   }

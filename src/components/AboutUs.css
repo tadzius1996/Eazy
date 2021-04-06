@@ -450,6 +450,7 @@
     .about-header {
         z-index: 1;
         margin: auto;
+        
     }
 
     .about-header-div {
@@ -500,6 +501,7 @@
         height: 110vh;
         background-color: var(--secondaryColor);
         z-index: 1;
+        width: 100%;
     }
 
     .about-photo {

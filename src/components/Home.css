@@ -150,7 +150,9 @@
 }
 
 .title-btn:hover {
-    background: var(--primaryColor);
+  border: 4px dotted var(--thirdColor);
+  background: var(--primaryColor);
+  color: white;
 }
 
 .fun {
@@ -305,7 +307,7 @@
 
   .homeTitle {
     margin: auto;
-    margin-top: -2rem;
+    margin-top: -5rem;
     text-align: center;
     max-width: 500px;
     height: 310px;
@@ -321,7 +323,7 @@
 .title-btn {
   margin: auto;
   width: 26%;
-  background: var(--secondaryColor);
+  background: var(--thirdColor);
   padding: 0.5rem;
   font-size: 1.2rem;
   color: var(--primaryColor);

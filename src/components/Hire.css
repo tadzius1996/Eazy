@@ -1158,7 +1158,7 @@
     }
 
     .hire-section {
-    
+        width: 100%;
         background-color: var(--primaryColor);
         margin-top: -3.5rem;
         height: 280vh;
@@ -1234,7 +1234,7 @@
         cursor: pointer;
         border: none;
         border-radius: 15px;
-        width: 120px;
+        width: 140px;
         margin: auto;
         color: var(--primaryColor);
         padding: 0.5rem;

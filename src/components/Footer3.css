@@ -114,12 +114,11 @@
 
     .footer3 {
         background-color: orange;
-    font-size: 4rem;
-    position: absolute;
-    bottom: -30vh;
-    width: 100%;
-    padding-top: 7rem;
-    z-index: -1;
+        font-size: 4rem;
+        margin-top: 40px;
+        padding-top: 12px;
+        width: 100%;
+        z-index: -1;
     }
 }
 
