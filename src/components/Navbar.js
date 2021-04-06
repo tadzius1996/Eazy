@@ -29,9 +29,7 @@ function Navbar() {
       prevScrollpos = currentScrollpos;
       }
 
-      if(prevScrollpos === currentScrollpos) {
-        document.getElementById('navbar').style.top = '-125px';
-      }
+      
 
 
     const [open, setOpen] = useState(false);
