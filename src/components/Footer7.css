@@ -208,12 +208,12 @@
 @media (max-width: 768px) {
 
     .footer7 {
-        background-color: orange;
-        font-size: 4rem;
-        margin-top: 100px;
-        padding-top: 62px;
-        width: 100%;
-        z-index: -1;
+         background-color: orange;
+    font-size: 4rem;
+    margin-top: 50px;
+    padding-top: 62px;
+    width: 100%;
+    z-index: -1;
         
     }
 

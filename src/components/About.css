@@ -276,6 +276,13 @@
   .title-btn {
     background-color: white;
   }
+
+  .ballons {
+    position: absolute;
+    z-index: -10;
+    right: 6rem;
+    top: 12.5rem;
+  }
 }
 
 

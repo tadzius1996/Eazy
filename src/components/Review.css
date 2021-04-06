@@ -796,7 +796,7 @@
 
   .cccustom-shape-divider-bottom-1616407588 {
     position: absolute;
-    bottom: 34rem;
+    bottom: 39rem;
     z-index: 1;
     left: 0;
     width: 100%;
@@ -819,19 +819,27 @@
   }
   
   .courses {
-    bottom: 0rem;
+    bottom: 1rem;
     position: absolute;
     font-size: 2rem;
     color: var(--thirdColor);
     letter-spacing: 5px;
     z-index: 10000000000000000000000000000000000000000000;
-    height: 18%;
+    height: 20%;
     width: 100%;
     background-color: var(--primaryColor);
     transition: 0.2s ease-in-out;
     cursor: pointer;
-  
     
+    
+  }
+
+  .look4 {
+    display: none;
+  }
+
+  .look5 {
+    display: none;
   }
 }
   
