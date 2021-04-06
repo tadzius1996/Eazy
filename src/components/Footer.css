@@ -17,6 +17,7 @@
     line-height: 0;
     transform: rotate(180deg);
     z-index: -1;
+
 }
 
 .ccccustom-shape-divider-bottom-1616461942 svg {
@@ -24,10 +25,12 @@
     display: block;
     width: calc(100% + 1.3px);
     height: 117px;
+    
 }
 
 .ccccustom-shape-divider-bottom-1616461942 .shape-fill {
     fill: orange;
+
 }
 
 .footerContent {
@@ -181,7 +184,33 @@
         margin-bottom: 37rem;
         width: 100%;
         z-index: -1;
+        height: 100px;
+        padding-top: 0;
+    }
 
+    .ccccustom-shape-divider-bottom-1616461942 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+        z-index: -1;
+        display: none;
+    }
+    
+    .ccccustom-shape-divider-bottom-1616461942 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 117px;
+        display: none;
+    }
+    
+    .ccccustom-shape-divider-bottom-1616461942 .shape-fill {
+        fill: orange;
+        display: none;
     }
 }
 

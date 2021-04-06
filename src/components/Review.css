@@ -144,8 +144,8 @@
 
 .clouds {
   position: absolute;
-  bottom: 0rem;
-  z-index: 10000000000;
+  bottom: -3rem;
+  z-index: 100;
   right: 0rem;
 }
 
@@ -1037,7 +1037,7 @@
     background-color: var(--primaryColor);
     transition: 0.2s ease-in-out;
     cursor: pointer;
-  
+    padding-bottom: 5rem;
     
   }
 

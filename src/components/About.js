@@ -24,7 +24,7 @@ function Reviews() {
         <h1 className='about-us-title' data-aos='fade-up'>Welcome</h1>
         <div className='about-section'>
             <img src='/image2.jpg' alt="about-image" className='about-image' data-aos='fade-up'/>
-            <p className='about-text' data-aos='fade-up'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, culpa id. Quisquam similique nihil perferendis modi eum molestias. Eum, esse repellendus mollitia distinctio nemo hic soluta a? Similique, aliquid omnis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, culpa id. Quisquam similique nihil perferendis modi eum molestias. Eum, esse repellendus mollitia distinctio nemo hic soluta a? Similique, aliquid omnis?<br /><br/>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, culpa id. Quisquam similique nihil perferendis modi eum molestias. Eum, esse repellendus mollitia distinctio nemo hic soluta a? Similique, aliquid omnis?</p>
+            <p className='about-text' data-aos='fade-up'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, culpa id. Quisquam similique nihil perferendis modi eum molestias. Eum, esse repellendus mollitia distinctio nemo hic soluta a? Similique, aliquid omnis?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, culpa id. Quisquam similique nihil perferendis modi eum molestias. Eum, esse repellendus mollitia distinctio nemo hic soluta a? Similique, aliquid omnis?<br /><br/>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere, culpa id. Quisquam similique nihil perferendis.</p>
         </div>
         </div>
         </div>
