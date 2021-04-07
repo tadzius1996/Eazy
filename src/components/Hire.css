@@ -1163,7 +1163,7 @@
         width: 100%;
         background-color: var(--primaryColor);
         margin-top: -3.5rem;
-        height: 280vh;
+        height: 200vh;
         
     }
 
@@ -1178,7 +1178,7 @@
     }
 
     .education-logo {
-        top: 76rem;
+        top: 86rem;
         left: 7rem;
         position: absolute;
         width: 450px;
@@ -1237,7 +1237,7 @@
         cursor: pointer;
         border: none;
         border-radius: 15px;
-        width: 180px;
+        width: 100px;
         margin: auto;
         color: var(--primaryColor);
         padding: 0.5rem;

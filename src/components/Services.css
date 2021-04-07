@@ -327,6 +327,7 @@
         margin-top: 5rem;
         text-align: center;
         z-index: 10;
+        color: black;
     }
 
     .course-clouds {
@@ -389,13 +390,13 @@
 
       .demo-title {
         font-size: 4rem;
-        color: var(--primaryColor);
+        color: black;
         z-index: 10;
     }
     
     .demo-text {
         font-size: 1.2rem;
-        color: var(--primaryColor);
+        color: black;
         width: 500px;
         margin:auto;
         z-index: 10;
