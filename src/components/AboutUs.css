@@ -455,7 +455,7 @@
 
     .about-header-div {
         margin: auto;
-        margin-left: 8.5rem;
+        margin-left: 9rem;
         margin-top: -8rem;
     }
 
@@ -797,7 +797,7 @@
     
     .team-group {
         position: absolute;
-        top: 16rem;
+        top: 10rem;
         right: 4rem;
         width: 400px;
         height: auto;
@@ -902,7 +902,7 @@
     .about-header-div {
         margin: auto;
         margin-left: 10rem;
-        margin-top: -4rem;
+        margin-top: -10rem;
     }
 
     .list-item-burgerFirst {
