@@ -19,9 +19,9 @@ function Services() {
             <img src='course-clouds.png' alt='clouds' className='course-clouds4' data-aos='fade-up'/>
             <img src='course-clouds.png' alt='clouds' className='course-clouds5' data-aos='fade-up'/>
             <img src='/course-ballon.png' alt='plane' className='plane' data-aos='fade-right'/>
-            <img src='wishes.png' alt='plane' className='wishes' data-aos='fade-left'/>
-            <img src='superHero 1.png' alt='hero' className='hero' data-aos='fade-left'/>
-            <img src='/dots.png' alt='look'  className='course-stars' data-aos='fade-left'/>
+            <img src='wishes.png' alt='plane' className='wishes' data-aos='fade-up'/>
+            <img src='superHero 1.png' alt='hero' className='hero' data-aos='fade-up'/>
+            <img src='/dots.png' alt='look'  className='course-stars' data-aos='fade-down'/>
             <img src='/birdies.png' alt='birds'  className='course-birdies' data-aos='fade-right'/>
             <div className='demo-container' data-aos='fade-up'>
                 <h2 className='demo-title'>Courses We Offer!</h2>

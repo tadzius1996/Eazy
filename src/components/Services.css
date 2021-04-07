@@ -273,6 +273,12 @@
 
   @media (max-width: 768px) {
 
+    .demo-register {
+        color: black;
+        border-color: black;
+        outline: none;
+    }
+
     .plane {
         position: absolute;
         width: 500px;
@@ -299,7 +305,7 @@
 
     .demo-text {
         font-size: 1.5rem;
-        color: var(--primaryColor);
+        color: black;
         width: 500px;
         margin:auto;
         margin-top: 1rem;
@@ -318,7 +324,7 @@
     }
 
     .demo-container {
-        margin-top: 6rem;
+        margin-top: 5rem;
         text-align: center;
         z-index: 10;
     }
@@ -369,6 +375,10 @@
         height: 200px;
         width: auto;
         
+    }
+
+    .demo-title {
+        color: black;
     }
   }
   

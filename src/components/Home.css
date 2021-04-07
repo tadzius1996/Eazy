@@ -256,6 +256,25 @@
 
 @media (max-width: 768px) {
 
+  
+.home-stars {
+  position: absolute;
+  top: 1rem;
+  right: 0%;
+  width: 226px;
+  height: auto;
+  z-index: 10;
+}
+
+.home-stars2 {
+  position: absolute;
+  top: 0rem;
+  left: -7rem;
+  width: 226px;
+  height: auto;
+  z-index: 10;
+}
+
   .clouds {
     display: none;
   }
@@ -264,7 +283,7 @@
     position: absolute;
     z-index: -20;
     right: 0rem;
-    top: -6rem;
+    top: -12rem;
     display: block;
     width: 550px;
     height: auto;

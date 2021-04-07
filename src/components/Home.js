@@ -19,6 +19,8 @@ function Home() {
         <SocialMedia/>
         <div className='padding' />
         <div className='homeTitle' data-aos='fade-right'>
+        <img src='/dots.png' alt='look'  className='home-stars' data-aos='fade-down'/>
+        <img src='/dots.png' alt='look'  className='home-stars2' data-aos='fade-down'/>
         <img className='ballons-home' src='/ballons 12.png' alt='ballons' data-aos='fade-up'/>
         <h1 className='title'><span className='title-span'>Learn</span> English</h1>
         <span className='sub-title'>In a <span className='fun'>Fun</span> Way</span>

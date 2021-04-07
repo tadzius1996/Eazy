@@ -214,7 +214,11 @@
     padding-top: 62px;
     width: 100%;
     z-index: -1;
-        
+    display: none;
+    }
+
+    .hire-holder {
+        margin-bottom: 3rem;
     }
 
 
